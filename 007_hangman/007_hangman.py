@@ -1,9 +1,9 @@
 import random
-import 007b_hangman_words
-import 007c_hangman_art
+import words
+import art
 
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
-word_list = 007c_hangman_words.word_list
+word_list = words.word_list
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
@@ -12,7 +12,7 @@ lives = 6
 
 #TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
 
-print(hangman_art.logo)
+print(art.logo)
 
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
@@ -56,4 +56,4 @@ while not end_of_game:
         print("You win.")
 
 
-    print(007b_hangman_art.stages[lives])
+    print(art.stages[lives])

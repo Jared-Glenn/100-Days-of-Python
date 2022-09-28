@@ -49,7 +49,7 @@ def blackjack():
         running = False
         if comp_score > 21:
           if 11 in computer_hand:
-            ind - computer_hand.index(11)
+            ind = computer_hand.index(11)
             computer_hand[ind] = 1
             comp_score = sum(computer_hand)
             if cur_score > comp_score:

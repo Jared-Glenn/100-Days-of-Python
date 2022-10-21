@@ -12,10 +12,6 @@ Program that will notify the user when the International Space Station is visibl
 
 ![0 33_screenshot](https://user-images.githubusercontent.com/38020231/197303876-ff1f0762-6564-4cea-bc78-fa09f573a9b1.png)
 
-BONUS: Kanye Quote Generator.
-
-![0 33A_screenshot](https://user-images.githubusercontent.com/38020231/197303910-d4749208-c5cd-4da0-b7b3-039898ac1eb8.png)
-
 
 ## [Day 34 - Quizzler Quiz App](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/034_quizzler_quiz_app)
 Update to the previous quiz app to add a GUI with a focus on ease of use.

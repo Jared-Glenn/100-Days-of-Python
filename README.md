@@ -7,7 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 - If rain is detected, a text message will be generated and sent to the user.
 - Time of both the text and the hours checked can be customized for the user.
 
-<img src="https://user-images.githubusercontent.com/38020231/197363523-6421867a-971f-4700-86de-4d08dd48a450.jpg" width="48">
+<img src="https://user-images.githubusercontent.com/38020231/197363523-6421867a-971f-4700-86de-4d08dd48a450.jpg" width="200">
 
 
 

@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 35 - Rain Alert](https://github.com/Jared-Glenn/100-Days-of-Python/tree/0.35/Days%2026-50/035_rain_alert)
+## [Day 35 - Rain Alert](https://github.com/Jared-Glenn/100-Days-of-Python/tree/0.35/Days%2026-50/035_rain_alert | width=100)
 - Created a program that will check the weather report each day to determine if it will rain in the next 24 hours.
 - If rain is detected, a text message will be generated and sent to the user.
 - Time of both the text and the hours checked can be customized for the user.

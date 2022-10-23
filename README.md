@@ -2,7 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 35 - Rain Alert](https://github.com/Jared-Glenn/100-Days-of-Python/tree/0.35/Days%2026-50/035_rain_alert)
+## [Day 36 - Stock News Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days 26-50/036_stock_news)
+* This program compares today's opening price of your chosen stock (default: Tesla) with its opening price yesterday.
+* If there is a 5% difference in price between the two days, the program locates relevant news articles and formats them for ease of use.
+* Articles are then sent to the user's phone via text message, along with the percent change since the previous day.
+
+<img src="https://user-images.githubusercontent.com/38020231/197419193-d0a5a6ce-dfc0-43c1-8e5e-ccd4d97c0ac5.jpg" width="400">        <img src="https://user-images.githubusercontent.com/38020231/197419213-22d2bf58-1437-4f0b-b9e9-90d35ed54397.jpg" width="400">
+
+
+
+## [Day 35 - Rain Alert](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/035_rain_alert)
 - Created a program that will check the weather report each day to determine if it will rain in the next 24 hours.
 - If rain is detected, a text message will be generated and sent to the user.
 - Time of both the text and the hours checked can be customized for the user.

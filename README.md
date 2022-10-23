@@ -44,7 +44,7 @@ Program that will send birthday wishes to the emails of all family and friends i
 ## [Day 31 - Flashy, Flashcard App](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/031_flashy_flashcard_app)
 This app will test the user on the top 1000 used Dutch words. As the user learns words, they can opt those words out of the rotation.
 
-<img src="[https://user-images.githubusercontent.com/38020231/197419193-d0a5a6ce-dfc0-43c1-8e5e-ccd4d97c0ac5.jpg](https://user-images.githubusercontent.com/38020231/197419918-d6012c56-d297-45b9-a85e-49060fb16834.png)" width="500">  <img src="https://user-images.githubusercontent.com/38020231/197419919-45321379-ac4f-4b4a-a5ac-97193ec4c18a.png" width="500">
+<img src=(https://user-images.githubusercontent.com/38020231/197419918-d6012c56-d297-45b9-a85e-49060fb16834.png" width="500">  <img src="https://user-images.githubusercontent.com/38020231/197419919-45321379-ac4f-4b4a-a5ac-97193ec4c18a.png" width="500">
 
 
 

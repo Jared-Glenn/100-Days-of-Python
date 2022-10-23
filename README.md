@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 36 - Stock News Tracker]()
+## [Day 36 - Stock News Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days 26-50/036_stock_news)
 * This program compares today's opening price of your chosen stock (default: Tesla) with its opening price yesterday.
 * If there is a 5% difference in price between the two days, the program locates relevant news articles and formats them for ease of use.
 * Articles are then sent to the user's phone via text message, along with the percent change since the previous day.

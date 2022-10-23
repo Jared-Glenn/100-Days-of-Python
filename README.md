@@ -7,7 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * If there is a 5% difference in price between the two days, the program locates relevant news articles and formats them for ease of use.
 * Articles are then sent to the user's phone via text message, along with the percent change since the previous day.
 
-<img src="https://user-images.githubusercontent.com/38020231/197419193-d0a5a6ce-dfc0-43c1-8e5e-ccd4d97c0ac5.jpg" width="400">&nbsp&nbsp&nbsp<img src="https://user-images.githubusercontent.com/38020231/197419213-22d2bf58-1437-4f0b-b9e9-90d35ed54397.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/38020231/197419193-d0a5a6ce-dfc0-43c1-8e5e-ccd4d97c0ac5.jpg" width="400">&nbsp&nbsp<img src="https://user-images.githubusercontent.com/38020231/197419213-22d2bf58-1437-4f0b-b9e9-90d35ed54397.jpg" width="400">
 
 
 

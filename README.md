@@ -40,3 +40,24 @@ Program that will send birthday wishes to the emails of all family and friends i
 ![0 32_screenshot](https://user-images.githubusercontent.com/38020231/197304003-1f7ef529-1a0f-4e57-9fde-8de20846306e.png)
 
 
+
+## [Day 31 - Flashy, Flashcard App](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/031_flashy_flashcard_app)
+This app will test the user on the top 1000 used Dutch words. As the user learns words, they can opt those words out of the rotation.
+
+![031_screenshotA](https://user-images.githubusercontent.com/38020231/197419854-6251f396-7422-499c-944c-53ff6fb6c670.png)![031_screenshotB](https://user-images.githubusercontent.com/38020231/197419857-49c57cf1-f388-4a63-b70f-2608237d2cce.png)
+
+
+
+## [Day 30 - MyPass 2.0](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/030_mypass_version_2)
+Update to MyPass program to allow the user to search for passwords from websites already saved.
+
+![030_screenshot](https://user-images.githubusercontent.com/38020231/197419716-ceb6275a-e807-4e71-b7f0-40f1be739e2b.png)
+
+
+
+## [Day 29 - MyPass](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/029_mypass_password_manager)
+Password manager that will save passwords by website for the user. Also tracks the chosen email address.
+
+![029_screenshot](https://user-images.githubusercontent.com/38020231/197419747-86ba1239-f9f7-45e7-838b-0bb916776529.png)
+
+

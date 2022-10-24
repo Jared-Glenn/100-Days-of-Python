@@ -6,7 +6,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Accessed a tracking API, created graphs with it, and learned to add, change, and delete aspects of that graph.
 * (Beyond the lesson) I also created a GUI that allows the user to quickly change the graph to the desired quantities.
 * "Labbit" helps users track their goals and habits to improve their own behavior.
-* <b>Picture is for demonstration purposes. For an actual log of my coding, please visit my [Main Page](https://github.com/Jared-Glenn)</b>
+* <b>Picture is for demonstration purposes. For an actual log of my coding, please visit my [Main Github Page.](https://github.com/Jared-Glenn)</b>
 
 <img src="https://user-images.githubusercontent.com/38020231/197638712-a40769c5-a6e3-4aa5-8cf0-dd5423c1106a.png" width="400">  <img src="https://user-images.githubusercontent.com/38020231/197638445-af796e4e-0169-4109-8059-732839cd1914.png" width="600">
 

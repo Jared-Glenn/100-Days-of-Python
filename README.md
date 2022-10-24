@@ -10,7 +10,6 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 <img src="https://user-images.githubusercontent.com/38020231/197638712-a40769c5-a6e3-4aa5-8cf0-dd5423c1106a.png" width="400">  <img src="https://user-images.githubusercontent.com/38020231/197638445-af796e4e-0169-4109-8059-732839cd1914.png" width="600">
 
-![037_screenshotC]()
 
 
 ## [Day 36 - Stock News Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/036_stock_news)

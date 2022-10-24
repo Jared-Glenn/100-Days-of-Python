@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 37 - Habit Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/037_habit_tracker)
+* Accessed a tracking API, created graphs with it, and learned to add, change, and delete aspects of that graph.
+* (Beyond the lesson) I also created a GUI that allows the user to quickly change the graph to the desired quantities.
+* "Labbit" helps users track their goals and habits to improve their own behavior.
+
+<img src="https://user-images.githubusercontent.com/38020231/197638441-1230357d-04a0-43da-a9c1-f6ecf198cf7e.png" width="500">  <img src="https://user-images.githubusercontent.com/38020231/197638445-af796e4e-0169-4109-8059-732839cd1914.png" width="500">
+
+
+
 ## [Day 36 - Stock News Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/036_stock_news)
 * This program compares today's opening price of your chosen stock (default: Tesla) with its opening price yesterday.
 * If there is a 5% difference in price between the two days, the program locates relevant news articles and formats them for ease of use.

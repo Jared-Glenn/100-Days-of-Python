@@ -7,7 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * (Beyond the lesson) I also created a GUI that allows the user to quickly change the graph to the desired quantities.
 * "Labbit" helps users track their goals and habits to improve their own behavior.
 
-<img src="https://user-images.githubusercontent.com/38020231/197638712-a40769c5-a6e3-4aa5-8cf0-dd5423c1106a.png" width="400">  <img src="https://user-images.githubusercontent.com/38020231/197638445-af796e4e-0169-4109-8059-732839cd1914.png" width="500">
+<img src="https://user-images.githubusercontent.com/38020231/197638712-a40769c5-a6e3-4aa5-8cf0-dd5423c1106a.png" width="400">  <img src="https://user-images.githubusercontent.com/38020231/197638445-af796e4e-0169-4109-8059-732839cd1914.png" width="600">
 
 ![037_screenshotC]()
 

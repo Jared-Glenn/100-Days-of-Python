@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 38 - Workout Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/038_workout_tracker)
+* Created a program that would contact the Nutritionix API and the Sheety API to create a workout tracker.
+* Uses natural language to determine what exercises the user has done in order to calculate calories burned.
+* Completed an accessible Replit here: https://replit.com/join/cuompkqpfe-jared-glenn
+
+![038_screenshotA](https://user-images.githubusercontent.com/38020231/197873940-e5f8050c-de4c-468f-b2af-9407840a0a2d.png)
+![038_screenshotB](https://user-images.githubusercontent.com/38020231/197873955-7ec06626-d7ad-4be1-8a4c-95ad68d90d9b.png)
+
+
+
+
 ## [Day 37 - Habit Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/037_habit_tracker)
 * Accessed a tracking API, created graphs with it, and learned to add, change, and delete aspects of that graph.
 * (Beyond the lesson) I also created a GUI that allows the user to quickly change the graph to the desired quantities.

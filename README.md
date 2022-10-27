@@ -2,6 +2,18 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 40 - Flight Club](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/040_flight_club)
+* Improved on the code from the Flight Deal Finder to also allow other people to receive notifications.
+* Created an additional sheet to store and access this information.
+* Sends email to all signed-up parties.
+* Included functionality to allow a link to also be sent directly to the booking.
+
+![040_screenshotA](https://user-images.githubusercontent.com/38020231/198405875-1ab00075-f1ee-423e-b195-2d678706e534.jpg)
+![040_screenshotB](https://user-images.githubusercontent.com/38020231/198405884-aca19b27-60da-4a81-91c5-5344021415e2.jpg)
+![040_screenshotC](https://user-images.githubusercontent.com/38020231/198405895-6c03fcbf-dbb1-448f-b533-cd4b131fd7a9.png)
+
+
+
 ## [Day 39 - Flight Deal Finder](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/039_flight_deal_finder)
 * App locates flights under the chosen price to all specified locations.
 * Parses all data for each location and sends a text to the user, specifying the flight available.

@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 39 - Flight Deal Finder](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/039_flight_deal_finder)
+* App locates flights under the chosen price to all specified locations.
+* Parses all data for each location and sends a text to the user, specifying the flight available.
+* Finds all such flights within six months from your chosen city.
+
+![039_screenshot](https://user-images.githubusercontent.com/38020231/198191945-32de1246-f9be-4484-ad23-0d6666ee5496.png)
+
+
+
 ## [Day 38 - Workout Tracker](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/038_workout_tracker)
 * Created a program that would contact the Nutritionix API and the Sheety API to create a workout tracker.
 * Uses natural language to determine what exercises the user has done in order to calculate calories burned.

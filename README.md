@@ -8,8 +8,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Sends email to all signed-up parties.
 * Included functionality to allow a link to also be sent directly to the booking.
 
-![040_screenshotA](https://user-images.githubusercontent.com/38020231/198405875-1ab00075-f1ee-423e-b195-2d678706e534.jpg)
-![040_screenshotB](https://user-images.githubusercontent.com/38020231/198405884-aca19b27-60da-4a81-91c5-5344021415e2.jpg)
+<img src="https://user-images.githubusercontent.com/38020231/198405875-1ab00075-f1ee-423e-b195-2d678706e534.jpg" width="400">        <img src="https://user-images.githubusercontent.com/38020231/198405884-aca19b27-60da-4a81-91c5-5344021415e2.jpg" width="400">
 ![040_screenshotC](https://user-images.githubusercontent.com/38020231/198405895-6c03fcbf-dbb1-448f-b533-cd4b131fd7a9.png)
 
 

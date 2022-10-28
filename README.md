@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 41 - Personal Website v1](https://github.com/Jared-Glenn/58_Days_of_WebDev/tree/main/Days%201-29/002_personal_site)
+* Review of Web Design course.
+* Did basic exercises and markup with HTML.
+* Created a Personal Website for myself, including three total webpages, all linked together.
+* Made particular use of the h1, h3, anchor, hr, img, and ul tags in this project (among others).
+
+<img src="https://user-images.githubusercontent.com/38020231/197694204-9b6e6363-f014-49ed-8386-b13a9b1f2239.png" width="800">
+
+
+
 ## [Day 40 - Flight Club](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/040_flight_club)
 * Improved on the code from the Flight Deal Finder to also allow other people to receive notifications.
 * Created an additional sheet to store and access this information.

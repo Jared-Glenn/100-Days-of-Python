@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 42 - Personal Site v2](https://github.com/Jared-Glenn/58-Days-of-WebDev/tree/main/Days%201-29/003_personal_site_v2)
+* Updated the site code to include several tables for organization.
+* Improved the appearance of the main page.
+* Added a "Contact Me" form on the Contact page.
+* You can visit the actual, functional site here: https://jared-glenn.github.io/CV/
+
+<img src="https://user-images.githubusercontent.com/38020231/197968254-cbc87edb-ae6b-4cb7-a15b-33c0a9ba940d.png" width="800">
+<img src="https://user-images.githubusercontent.com/38020231/197968269-6aea94d7-b67e-404d-9306-5e6cb6638b5d.png" width="300">
+
+
+
 ## [Day 41 - Personal Website v1](https://github.com/Jared-Glenn/58_Days_of_WebDev/tree/main/Days%201-29/002_personal_site)
 * Review of Web Design course.
 * Did basic exercises and markup with HTML.

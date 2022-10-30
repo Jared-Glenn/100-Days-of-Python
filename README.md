@@ -2,12 +2,12 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 43 - Personal Site v3 (Introduction to CSS)] 
+## [Day 43 - Personal Site v3 (Introduction to CSS)](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/043_personal_site_v3)
 * Began experimenting with CSS properties.
 * Implemented a color scheme in the website's design.
 * Improved the aesthetic of the site by rounding the portrait and styling the hr elements.
 
-![043_screenshot](https://user-images.githubusercontent.com/38020231/198898922-e363711a-bb30-4f1e-b981-1e1ced6faec5.png)
+<img src="https://user-images.githubusercontent.com/38020231/198898922-e363711a-bb30-4f1e-b981-1e1ced6faec5.png" width="800">
 
 
 

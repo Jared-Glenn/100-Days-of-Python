@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 44 - Personal Site v4]
+* Finished design and layout of site.
+* Added a general style with font, color, and icons.
+* Added eye-catching aspects, like the falling leaves and staggered text styles.
+
+<img src="https://user-images.githubusercontent.com/38020231/199042509-57a6ca80-e992-4717-b4b0-392145445ab1.png" width="400">  <img src="https://user-images.githubusercontent.com/38020231/199042526-85ba2d87-cf91-4a9f-bfb8-6ca587201331.png" width="392">
+<img src="https://user-images.githubusercontent.com/38020231/199042534-79865e38-7e78-4609-b503-af068bbb7e15.png" width="600">
+
+
+
 ## [Day 43 - Personal Site v3 (Introduction to CSS)](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/043_personal_site_v3)
 * Began experimenting with CSS properties.
 * Implemented a color scheme in the website's design.

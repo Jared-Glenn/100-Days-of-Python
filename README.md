@@ -7,8 +7,8 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Added a general style with font, color, and icons.
 * Added eye-catching aspects, like the falling leaves and staggered text styles.
 
-<img src="https://user-images.githubusercontent.com/38020231/199042509-57a6ca80-e992-4717-b4b0-392145445ab1.png" width="500">  <img src="https://user-images.githubusercontent.com/38020231/199042526-85ba2d87-cf91-4a9f-bfb8-6ca587201331.png" width="490">
-<img src="https://user-images.githubusercontent.com/38020231/199042534-79865e38-7e78-4609-b503-af068bbb7e15.png" width="800">
+<img src="https://user-images.githubusercontent.com/38020231/199042509-57a6ca80-e992-4717-b4b0-392145445ab1.png" width="400">  <img src="https://user-images.githubusercontent.com/38020231/199042526-85ba2d87-cf91-4a9f-bfb8-6ca587201331.png" width="395">
+<img src="https://user-images.githubusercontent.com/38020231/199042534-79865e38-7e78-4609-b503-af068bbb7e15.png" width="600">
 
 
 

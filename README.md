@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 44 - Personal Site v4]
+## [Day 44 - Personal Site v4](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/044_personal_site_v4)
 * Finished design and layout of site.
 * Added a general style with font, color, and icons.
 * Added eye-catching aspects, like the falling leaves and staggered text styles.

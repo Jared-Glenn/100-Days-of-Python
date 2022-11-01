@@ -2,6 +2,18 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+[Day 45 - Must Watch Movies
+* Learned to use Beautiful Soup for web scraping and discussed the uses and ethical aspects of scraping.
+* Found an updated version of an Empire list of the Best 100 Movies. Located the new methods for displaying information and scraped the names of all 100 movies.
+* Also created a program to turn those movies into a readable list for ease of use and reading.
+* Added functionality for the program to randomly choose a movie for you to watch from the list.
+* Data scraped from Empire at: https://www.empireonline.com/movies/features/best-movies-2/
+
+<img src="https://user-images.githubusercontent.com/38020231/199357349-217ac90d-9958-4f81-a5aa-17251330fd92.png" width="400"> 
+<img src="https://user-images.githubusercontent.com/38020231/199357343-3415016d-0fc2-4e79-bd71-1d16db2bc8d2.png" width="400"> <img src="https://user-images.githubusercontent.com/38020231/199357355-8338313d-ba9f-4ace-a1c2-6147fe00e50f.png" width="500">
+
+
+
 ## [Day 44 - Personal Site v4](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/044_personal_site_v4)
 * Finished design and layout of site.
 * Added a general style with font, color, and icons.

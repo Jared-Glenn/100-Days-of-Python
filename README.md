@@ -8,7 +8,8 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Also created a program to turn those movies into a readable list for ease of use and reading.
 * Added functionality for the program to randomly choose a movie for you to watch from the list.
 
-<img src="https://user-images.githubusercontent.com/38020231/199357343-3415016d-0fc2-4e79-bd71-1d16db2bc8d2.png" width="350">  <img src="https://user-images.githubusercontent.com/38020231/199357349-217ac90d-9958-4f81-a5aa-17251330fd92.png" width="100">
+<img src="https://user-images.githubusercontent.com/38020231/199357349-217ac90d-9958-4f81-a5aa-17251330fd92.png" width="200">
+<img src="https://user-images.githubusercontent.com/38020231/199357343-3415016d-0fc2-4e79-bd71-1d16db2bc8d2.png" width="300">
 <img src="https://user-images.githubusercontent.com/38020231/199357355-8338313d-ba9f-4ace-a1c2-6147fe00e50f.png" width="400">
 
 

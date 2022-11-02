@@ -13,7 +13,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
 
-[Day 45 - Must Watch Movies](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/045_must_watch_movies)
+## [Day 45 - Must Watch Movies](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/045_must_watch_movies)
 * Learned to use Beautiful Soup for web scraping and discussed the uses and ethical aspects of scraping.
 * Found an updated version of an Empire list of the Best 100 Movies. Located the new methods for displaying information and scraped the names of all 100 movies.
 * Also created a program to turn those movies into a readable list for ease of use and reading.

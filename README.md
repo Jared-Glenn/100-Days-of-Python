@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 46 - Musical Time Machine](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/046_musical_time_machine)
+* This program takes a date as input (YYYY-MM-DD) to produce a Spotify playlist.
+* The chosen songs are the top 100 Billboard songs from the chosen week.
+* The program attempts to search by both song title and song artist, but will default to the title if not possible.
+* The playlist track number is equal to the song's Billboard ranking that week.
+* Data taken from Billboard at: https://www.billboard.com/charts/hot-100
+
+<img src="https://user-images.githubusercontent.com/38020231/199608088-eff557c2-6257-4d60-8958-747467a8c484.png" width="500">
+
+
+
 [Day 45 - Must Watch Movies](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/045_must_watch_movies)
 * Learned to use Beautiful Soup for web scraping and discussed the uses and ethical aspects of scraping.
 * Found an updated version of an Empire list of the Best 100 Movies. Located the new methods for displaying information and scraped the names of all 100 movies.

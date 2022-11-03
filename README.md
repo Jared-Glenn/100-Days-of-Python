@@ -5,7 +5,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 ## [Day 47 - Amazon Price Alert](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/047_amazon_price_alert)
 * Checks the price of a given product on Amazon at the chosen interval.
 * Sends an email notification to the user when the price goes below their chosen dollar amount.
-* Bypasses anti-scraping measures by Amazon through swiftly repeated requests. (Program is personal (non-commercial) in nature and not widely implemented. Thus, this behavior is ethical and legal.)
+* Bypasses anti-scraping measures by Amazon through swiftly repeated requests. (Program is personal [non-commercial] in nature and not widely implemented. Thus, this behavior is ethical and legal.)
 
 <img src="https://user-images.githubusercontent.com/38020231/199840787-45472921-1173-4833-a440-d5a459acc427.png" width="700">
 

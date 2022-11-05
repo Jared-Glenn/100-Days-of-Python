@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 48 - Automated Game Bot](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/048_automated_game_bot)
+- Created a program to automatically access the Cookie Clicker, click repeatedly, and purchase upgrades and items as possible.
+- Incorporated a method for checking on upgrades every ten seconds and finding the most productive option.
+- Loops for five minutes, then captures a screenshot, and turns the program off. (This can easily be made to run indefinitely, if desired.)
+
+<img src="https://user-images.githubusercontent.com/38020231/200096560-539e4c74-669c-4a1c-ad9a-67b4fe7a4647.png" width="700">
+
+
+
 ## [Day 47 - Amazon Price Alert](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/047_amazon_price_alert)
 * Checks the price of a given product on Amazon at the chosen interval.
 * Sends an email notification to the user when the price goes below their chosen dollar amount.

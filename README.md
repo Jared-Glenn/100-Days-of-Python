@@ -7,7 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 - Incorporated a method for checking on upgrades every ten seconds and finding the most productive option.
 - Loops for five minutes, then captures a screenshot, and turns the program off. (This can easily be made to run indefinitely, if desired.)
 
-<img src="https://user-images.githubusercontent.com/38020231/200096560-539e4c74-669c-4a1c-ad9a-67b4fe7a4647.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/200096596-55c71a05-2f2a-4297-b0a7-0df5ac99bc55.png" width="700">
 
 
 

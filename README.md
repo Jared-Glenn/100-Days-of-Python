@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 49 - LinkedIn Applier]
+* Created a program to access all Easy Apply jobs in my fields and complete the applications.
+* Program has been designed to stop just short of actually completing the application, but can easily be adapted to complete the applications, if desired.
+* The program logs in, completes a search for three different job types, and applies to the top four jobs in each category.
+
+<img src="https://user-images.githubusercontent.com/38020231/200153482-2d101a56-e3ab-4ca5-b59d-525c9d1656d3.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200153485-228d782d-8b4c-4a02-b95a-d0e31a2a91ac.png" width="440">
+<img src="https://user-images.githubusercontent.com/38020231/200153488-f92fa7ff-8974-4c13-8d8e-11860dede14f.png" width="500">
+
+
+
 ## [Day 48 - Automated Game Bot](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/048_automated_game_bot)
 - Created a program to automatically access the Cookie Clicker, click repeatedly, and purchase upgrades and items as possible.
 - Incorporated a method for checking on upgrades every ten seconds and finding the most productive option.

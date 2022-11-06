@@ -7,7 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Program has been designed to stop just short of actually completing the application, but can easily be adapted to complete the applications, if desired.
 * The program logs in, completes a search for three different job types, and applies to the top four jobs in each category.
 
-<img src="https://user-images.githubusercontent.com/38020231/200153482-2d101a56-e3ab-4ca5-b59d-525c9d1656d3.png" width="450"> <img src="https://user-images.githubusercontent.com/38020231/200153485-228d782d-8b4c-4a02-b95a-d0e31a2a91ac.png" width="450">
+<img src="https://user-images.githubusercontent.com/38020231/200153482-2d101a56-e3ab-4ca5-b59d-525c9d1656d3.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200153485-228d782d-8b4c-4a02-b95a-d0e31a2a91ac.png" width="450">
 <img src="https://user-images.githubusercontent.com/38020231/200153488-f92fa7ff-8974-4c13-8d8e-11860dede14f.png" width="500">
 
 

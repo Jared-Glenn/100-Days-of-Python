@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 49 - LinkedIn Applier]
+## [Day 49 - LinkedIn Applier](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/049_linkedin_applier)
 * Created a program to access all Easy Apply jobs in my fields and complete the applications.
 * Program has been designed to stop just short of actually completing the application, but can easily be adapted to complete the applications, if desired.
 * The program logs in, completes a search for three different job types, and applies to the top four jobs in each category.

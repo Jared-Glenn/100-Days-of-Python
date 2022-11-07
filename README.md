@@ -7,7 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Once that information is obtained, the program will log into Twitter, and tweet a complaint about the speed.
 * Code may be altered to specifically tweet at the user's internet provider.
 
-<img src="https://user-images.githubusercontent.com/38020231/200431305-82a65746-5712-4993-8836-2b631b74a15f.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200431310-13e46d4e-8874-41fc-8fcd-cbc83456fca4.png" width="440">
+<img src="https://user-images.githubusercontent.com/38020231/200431305-82a65746-5712-4993-8836-2b631b74a15f.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200431310-13e46d4e-8874-41fc-8fcd-cbc83456fca4.png" width="500">
 
 
 

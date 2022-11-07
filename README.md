@@ -2,6 +2,13 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 50 - Tinder Swiper]
+* Created a program to swipe on tinder (like or dislike, by user choice) for a set of 100 other users.
+* Uses Selenium to automate the login and authentication methods. Then simulates a swipe by a user to the right or left every 5 seconds.
+* This particular build opts not to select "like" to avoid hurting feelings, instead selecting the "Nope" option and continuing to the next Tinder user.
+
+
+
 ## [Day 49 - LinkedIn Applier](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/049_linkedin_applier)
 * Created a program to access all Easy Apply jobs in my fields and complete the applications.
 * Program has been designed to stop just short of actually completing the application, but can easily be adapted to complete the applications, if desired.

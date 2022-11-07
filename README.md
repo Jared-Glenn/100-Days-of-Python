@@ -5,7 +5,10 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 ## [Day 50 - Tinder Swiper](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/050_tinder_swiper)
 * Created a program to swipe on tinder (like or dislike, by user choice) for a set of 100 other users.
 * Uses Selenium to automate the login and authentication methods. Then simulates a swipe by a user to the right or left every 5 seconds.
-* This particular build opts not to select "like" to avoid hurting feelings, instead selecting the "Nope" option and continuing to the next Tinder user.
+* This particular build opts NOT to select "like" to avoid hurting feelings, instead selecting the "Nope" option and continuing to the next Tinder user.
+* Note: The other user is not informed of "Nope" responses, making this the kindest option (in my opinion).
+
+<img src="https://user-images.githubusercontent.com/38020231/200245830-c41e0013-533b-47a6-8849-597ce22a1cfa.png" width="700">
 
 
 

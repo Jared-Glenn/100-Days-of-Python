@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 51 - Twitter Speed Complainer]
+* Created a program to locate the user's current internet speed.
+* Once that information is obtained, the program will log into Twitter, and tweet a complaint about the speed.
+* Code may be altered to specifically tweet at the user's internet provider.
+
+<img src="https://user-images.githubusercontent.com/38020231/200431305-82a65746-5712-4993-8836-2b631b74a15f.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200431310-13e46d4e-8874-41fc-8fcd-cbc83456fca4.png" width="500">
+
+
+
 ## [Day 50 - Tinder Swiper](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2026-50/050_tinder_swiper)
 * Created a program to swipe on tinder (like or dislike, by user choice) for a set of 100 other users.
 * Uses Selenium to automate the login and authentication methods. Then simulates a swipe by a user to the right or left every 5 seconds.

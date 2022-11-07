@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 51 - Twitter Speed Complainer]
+## [Day 51 - Twitter Speed Complainer](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/051_twitter_speed_complainer)
 * Created a program to locate the user's current internet speed.
 * Once that information is obtained, the program will log into Twitter, and tweet a complaint about the speed.
 * Code may be altered to specifically tweet at the user's internet provider.

@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 52 - Instagram Follower Finder](
+## [Day 52 - Instagram Follower Finder](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/052_instagram_follower_finder)
 * Created a program to access the user's Instagram account and then navigate to a different page and follower list (as chosen by the user).
 * The program then scrolls down to expand the list of displayed followers and ignores options the user has already followed.
 * Finally, the program goes through each available Instagram user and follows them one at a time.

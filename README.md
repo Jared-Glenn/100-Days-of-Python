@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 52 - Instagram Follower Finder](
+* Created a program to access the user's Instagram account and then navigate to a different page and follower list (as chosen by the user).
+* The program then scrolls down to expand the list of displayed followers and ignores options the user has already followed.
+* Finally, the program goes through each available Instagram user and follows them one at a time.
+* This program can help a startup to make contacts by following users who already follow similar content creators, increasing the chances of being followed.
+
+<img src="https://user-images.githubusercontent.com/38020231/200695723-6c98ee35-7659-4e1a-8ee5-7be1fbc19a98.png" width="700">
+
+
+
 ## [Day 51 - Twitter Speed Complainer](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/051_twitter_speed_complainer)
 * Created a program to locate the user's current internet speed.
 * Once that information is obtained, the program will log into Twitter, and tweet a complaint about the speed.

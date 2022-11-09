@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 53 - Data Scraping Capstone]
+## [Day 53 - Data Scraping Capstone](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/053_data_scraping_capstone)
 * Created a program that can access and store chosen variables in a spreadsheet.
 * This particular program locates rentals in San Francisco and logs their prices, locations, and links.
 * All of the data are stored in a Google Form for easy conversion into a spreadsheet.

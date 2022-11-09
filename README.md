@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 53 - Data Scraping Capstone]
+* Created a program that can access and store chosen variables in a spreadsheet.
+* This particular program locates rentals in San Francisco and logs their prices, locations, and links.
+* All of the data are stored in a Google Form for easy conversion into a spreadsheet.
+
+<img src="https://user-images.githubusercontent.com/38020231/200966114-6a0cb466-b2a7-42a7-baaa-b7e9a483fed1.png" width="400"> 
+<img src="https://user-images.githubusercontent.com/38020231/200966121-b0264a66-278b-4307-8458-a04375697423.png" width="400"> <img src="https://user-images.githubusercontent.com/38020231/200966126-2c7f4863-7393-4a32-b931-4b62da7fbcd4.png" width="500">
+
+
+
 ## [Day 52 - Instagram Follower Finder](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/052_instagram_follower_finder)
 * Created a program to access the user's Instagram account and then navigate to a different page and follower list (as chosen by the user).
 * The program then scrolls down to expand the list of displayed followers and ignores options the user has already followed.

@@ -7,8 +7,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * This particular program locates rentals in San Francisco and logs their prices, locations, and links.
 * All of the data are stored in a Google Form for easy conversion into a spreadsheet.
 
-<img src="https://user-images.githubusercontent.com/38020231/200966114-6a0cb466-b2a7-42a7-baaa-b7e9a483fed1.png" width="400"> 
-<img src="https://user-images.githubusercontent.com/38020231/200966121-b0264a66-278b-4307-8458-a04375697423.png" width="400"> <img src="https://user-images.githubusercontent.com/38020231/200966126-2c7f4863-7393-4a32-b931-4b62da7fbcd4.png" width="500">
+<img src="https://user-images.githubusercontent.com/38020231/200966114-6a0cb466-b2a7-42a7-baaa-b7e9a483fed1.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200966121-b0264a66-278b-4307-8458-a04375697423.png" width="500"> <img src="https://user-images.githubusercontent.com/38020231/200966126-2c7f4863-7393-4a32-b931-4b62da7fbcd4.png" width="500">
 
 
 

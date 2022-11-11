@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 55 - High Low Web App]
+* Recreated the High-Low Game making use of Flask.
+* Users can guess a number between 0 and 9.
+* To make a guess, the user can simply place their guess at the end of the URL after a forward slash.
+
+<img src="https://user-images.githubusercontent.com/38020231/201436217-bbe2527b-40f7-4ade-b72f-d6d5a57b03dc.gif" width="400">
+
+
+
 ## [Day 54 - Flask Sites](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/054_flask_website)
 * Began learning to work with Flask including starting a Flask server for development.
 * Learned to create decorator functions, as shown below.

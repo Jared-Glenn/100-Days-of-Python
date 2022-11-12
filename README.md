@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+##[Day 56 - Namecard Website]
+* Create a website to double as a business card.
+* Integrated Flask into this process, giving me access to Python functionality on the site, if needed.
+* Links and pictures are all customizable for the user.
+
+<img src="https://user-images.githubusercontent.com/38020231/201493924-2b84a8b4-c530-40e9-93fc-e71abb84ffb9.gif" width="600">
+
+
+
 ## [Day 55 - High Low Web App](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/055_high_low_webapp)
 * Recreated the High-Low Game making use of Flask.
 * Users can guess a number between 0 and 9.

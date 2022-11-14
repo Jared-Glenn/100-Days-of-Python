@@ -8,7 +8,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Created a blog that works via Jinja templating and a blog API.
 
 <img src="https://user-images.githubusercontent.com/38020231/201552557-665387b7-9687-4737-93c6-160b4146eec5.gif" width="400">
-<img src="https://user-images.githubusercontent.com/38020231/201552568-1c2d1dc6-39a5-4244-a4f2-db2cea1c6563.png" width="500"><img src="https://user-images.githubusercontent.com/38020231/201552570-1d1831b7-bef0-4a6a-8bfc-74bbaefc4370.png" width="500">
+<img src="https://user-images.githubusercontent.com/38020231/201552796-82c314e2-3e0f-4720-b556-d16d9b76220d.png" width="500"><img src="https://user-images.githubusercontent.com/38020231/201552798-fdc8850b-9023-4ee7-843c-ad2c6a29bdee.png" width="500">
 
 
 

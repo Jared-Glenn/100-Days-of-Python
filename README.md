@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 57 - Blog Capstone]
+* Combined Python with Web Development with Flask.
+* Created a site to guess a person's age and gender from the given name (through the use of API's).
+* Created a blog that works via Jinja templating and a blog API.
+
+<img src="https://user-images.githubusercontent.com/38020231/201552557-665387b7-9687-4737-93c6-160b4146eec5.gif" width="400">
+<img src="https://user-images.githubusercontent.com/38020231/201552568-1c2d1dc6-39a5-4244-a4f2-db2cea1c6563.png" width="300"> <img src="https://user-images.githubusercontent.com/38020231/201552570-1d1831b7-bef0-4a6a-8bfc-74bbaefc4370.png" width="300">
+
+
+
 ## [Day 56 - Namecard Website](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/056_namecard_website)
 * Create a website to double as a business card.
 * Integrated Flask into this process, giving me access to Python functionality on the site, if needed.

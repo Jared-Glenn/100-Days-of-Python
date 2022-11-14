@@ -2,6 +2,18 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 58 - Tindog]
+* Created a parody dating website for dogs.
+* Added a carousel for testimonials from users.
+* Added cards for pricing and ease of understanding.
+* Included a Call to Action with more download options.
+* Added a contact section in the footer of the page.
+
+<img src="https://user-images.githubusercontent.com/38020231/201750638-fb36a315-9cd6-4b53-ba4e-e389c09b5906.png" width="500">
+<img src="https://user-images.githubusercontent.com/38020231/201750645-92e991c6-92bd-4545-b709-e68642889dff.png" width="500"><img src="https://user-images.githubusercontent.com/38020231/201750656-a3af6752-5afd-452f-a0a5-e4067bb3f10b.png" width="500">
+
+
+
 ## [Day 57 - Blog Capstone](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/057_blog_capstone)
 * Combined Python with Web Development with Flask.
 * Created a site to guess a person's age and gender from the given name (through the use of API's).

@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 59 - Western Star Blog]
+## [Day 59 - Western Star Blog](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/059_blog_upgrade)
 * Created a working blog using Bootstrap and Flask.
 * Fully responsive with headers and footers transferred between pages.
 * Works with an API to provide the articles and dynamically changes the heading pictures.

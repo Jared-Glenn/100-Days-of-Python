@@ -11,7 +11,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
 
-## [Day 58 - Tindog]
+## [Day 58 - Tindog](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/058_tindog)
 * Created a parody dating website for dogs.
 * Added a carousel for testimonials from users.
 * Added cards for pricing and ease of understanding.

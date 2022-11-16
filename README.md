@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 59 - Western Star Blog]
+* Created a working blog using Bootstrap and Flask.
+* Fully responsive with headers and footers transferred between pages.
+* Works with an API to provide the articles and dynamically changes the heading pictures.
+
+<img src="https://user-images.githubusercontent.com/38020231/202060432-f6e8f71c-5d7c-4cf9-9ce1-e999cec241b7.gif" width="700">
+
+
+
 ## [Day 58 - Tindog]
 * Created a parody dating website for dogs.
 * Added a carousel for testimonials from users.

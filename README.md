@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 60 - Western Star Contact Form
+* Added functionality to the contact page so the form works properly, collecting data from the user.
+* The header of the page will change dynamically when the form in used.
+* Messages are sent directly to the administrator's email.
+
+<img src="https://user-images.githubusercontent.com/38020231/202316922-0c018475-47ef-4d16-bc60-bb2cd28740b4.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/202316926-154c92a4-10d2-4f54-aea6-ffc1f43d9606.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/202316936-7c4a20d2-a9ac-4f75-a5fd-c7339f41b553.png" width="400">
+
+
+
 ## [Day 59 - Western Star Blog](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/059_blog_upgrade)
 * Created a working blog using Bootstrap and Flask.
 * Fully responsive with headers and footers transferred between pages.

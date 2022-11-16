@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 60 - Western Star Contact Form
+## [Day 60 - Western Star Contact Form](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/060_blog_contact_form)
 * Added functionality to the contact page so the form works properly, collecting data from the user.
 * The header of the page will change dynamically when the form in used.
 * Messages are sent directly to the administrator's email.

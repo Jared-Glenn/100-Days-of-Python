@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 62 - Coffee and Wifi]
+## [Day 62 - Coffee and Wifi](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/062_coffee_and_wifi)
 * Created a website to display reviews of cafes on their coffee, wifi, and outlet availability.
 * Website also gives a link to the address as an anchor to a map url.
 * Includes a "secret" page for adding new cafes for those "in the know" about it.

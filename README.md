@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 62 - Coffee and Wifi]
+* Created a website to display reviews of cafes on their coffee, wifi, and outlet availability.
+* Website also gives a link to the address as an anchor to a map url.
+* Includes a "secret" page for adding new cafes for those "in the know" about it.
+
+<img src="https://user-images.githubusercontent.com/38020231/202808901-65cf20e1-33e5-4015-9fb2-5cc7ee39eacc.gif" width="700">
+
+
+
 ## [Day 61 - Validation Forms](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/061_validation_forms)
 * Created a sign in form using flask, validation, flask_bootstrap, and jinja.
 * First created a form from scratch and then used the "render_form" method.

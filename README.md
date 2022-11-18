@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 61 - Validation Forms]
+* Created a sign in form using flask, validation, flask_bootstrap, and jinja.
+* First created a form from scratch and then used the "render_form" method.
+* Added separate landing pages for success and failure using a base template.
+
+<img src="https://user-images.githubusercontent.com/38020231/202592636-8800aab4-af53-4bdc-b0db-c307020d0341.gif" width="700">
+
+
+
 ## [Day 60 - Western Star Contact Form](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/060_blog_contact_form)
 * Added functionality to the contact page so the form works properly, collecting data from the user.
 * The header of the page will change dynamically when the form in used.

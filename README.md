@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+##[Day 63 - Virtual Bookshelf]
+* Created an app to keep track of which books the user has read and rated.
+* Maintains the database between uses and user can adjust ratings after the fact.
+* A delete button is also included, allowing the user to pick and choose which books to keep track of.
+
+<img src="https://user-images.githubusercontent.com/38020231/202885841-59b44520-9604-491e-b348-a3ce1f29fd87.gif" width="700">
+
+
+
 ## [Day 62 - Coffee and Wifi](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/062_coffee_and_wifi)
 * Created a website to display reviews of cafes on their coffee, wifi, and outlet availability.
 * Website also gives a link to the address as an anchor to a map url.

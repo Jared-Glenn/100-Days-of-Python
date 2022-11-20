@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-##[Day 63 - Virtual Bookshelf]
+## [Day 63 - Virtual Bookshelf](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/063_virtual_bookshelf)
 * Created an app to keep track of which books the user has read and rated.
 * Maintains the database between uses and user can adjust ratings after the fact.
 * A delete button is also included, allowing the user to pick and choose which books to keep track of.

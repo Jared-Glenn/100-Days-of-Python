@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Restaurants{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+        <br>
+<h1>My Library</h1>
+        <br>
+    {% if not books %}
+    <p>Library is Empty.</p>
+        {%else:%}
+        <table class="table">
+          {% for book in books %}
+          <tr>
+              <td>{{ book.title }}</td>
+              <td>{{ book.author }}</td>
+              <td>{{ book.rating }}</td>
+              <td><a href="{{url_for('edit', id=book.id)}}"><i class="fa-solid fa-pen-to-square"></i></a></td>
+              <td><a href="{{url_for('delete', id=book.id)}}"><i class="fa-sharp fa-solid fa-trash"></i></a></td>
+          </tr>
+          {%endfor%}
+  	  </table>
+        {%endif%}
+
+<div>
+  	  </table>
+    <a href="/add">Add a Book.</a>
+
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

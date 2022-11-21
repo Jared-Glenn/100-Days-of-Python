@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 64 - Top Ten Movie Site]
+* Created a site to track movie ratings and place them in a ranking for the user.
+* Movie Database API is used to locate the movie, details, and poster for the site.
+* User ratings can be changed with the click of a button or deleted from the list just as easily.
+
+<img src="https://user-images.githubusercontent.com/38020231/203043710-be76a467-9634-4cc9-b49f-a6a0486b1468.gif" width="700">
+
+
+
 ## [Day 63 - Virtual Bookshelf](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/063_virtual_bookshelf)
 * Created an app to keep track of which books the user has read and rated.
 * Maintains the database between uses and user can adjust ratings after the fact.

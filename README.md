@@ -2,6 +2,21 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 65 - Web Design]
+* Today, we studied the ins and outs of general web design, including:
+  - Color Theory
+  - Typography
+  - UI Design
+  - UX Design
+  - Ethical Design
+* Created a mockup of a hotel room on Canva to practice these principles.
+
+<img src="https://user-images.githubusercontent.com/38020231/199662945-3ca888fb-14d7-4817-a936-3ae52e0cef8f.png" width="600">
+<img src="https://user-images.githubusercontent.com/38020231/199662954-ca98b6a2-8c38-4988-b894-38e2c95b3357.png" width="600">
+<img src="https://user-images.githubusercontent.com/38020231/199662965-9714f11c-d655-4d3c-99c5-5ff8180ea1fa.png" width="600">
+
+
+
 ## [Day 64 - Top Ten Movie Site](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/064_top_ten_movies)
 * Created a site to track movie ratings and place them in a ranking for the user.
 * Movie Database API is used to locate the movie, details, and poster for the site.

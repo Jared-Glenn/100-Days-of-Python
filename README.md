@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 65 - Web Design]
+## [Day 65 - Web Design](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/065_web_design)
 * Today, we studied the ins and outs of general web design, including:
   - Color Theory
   - Typography

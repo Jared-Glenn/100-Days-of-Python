@@ -2,13 +2,14 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 66 - Cafe API]
+## [Day 66 - Cafe API](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/066_cafe_api)
 * Created my first API of Cafe Locations in London.
 * Users can access the entire database, request a random cafe, or alter the "price" field when the real-world price changes.
 * Those with an API key can also add or delete cafes that have stopped operating so the API remains relevant.
+* The Documentation can be found [here](https://documenter.getpostman.com/view/24424556/2s8YsnWbGj).
 
-<img src="https://user-images.githubusercontent.com/38020231/203497287-401ecc67-83e4-4345-a99b-59d53dd33354.png" width="600">
-<img src="https://user-images.githubusercontent.com/38020231/203497290-351584e0-d384-4470-abcc-4569f294bdec.png" width="600">
+<img src="https://user-images.githubusercontent.com/38020231/203497287-401ecc67-83e4-4345-a99b-59d53dd33354.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/203497290-351584e0-d384-4470-abcc-4569f294bdec.png" width="700">
 
 
 

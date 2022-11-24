@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 67 - Blog with RESTful Routing]
+## [Day 67 - Blog with RESTful Routing](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/067_blog_restful_routing)
 * Improved the navigation and connectivity of the blog project.
 * Posts can now be easily created using a fully functional text editor and then saved into a database.
 * Posts can also be edited by adjusting the already-entered text or can be deleted entirely, if need be.

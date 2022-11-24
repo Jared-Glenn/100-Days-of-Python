@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 67 - Blog with RESTful Routing]
+* Improved the navigation and connectivity of the blog project.
+* Posts can now be easily created using a fully functional text editor and then saved into a database.
+* Posts can also be edited by adjusting the already-entered text or can be deleted entirely, if need be.
+
+<img src="https://user-images.githubusercontent.com/38020231/203772108-4a4af7fd-2839-4727-8937-88ab6519ab5d.png" width="400">
+<img src="https://user-images.githubusercontent.com/38020231/203772118-cccb24c2-5ec5-4150-9a25-48ba116a389e.png" width="400">
+<img src="https://user-images.githubusercontent.com/38020231/203772123-16bba709-fe2b-4b8d-87ff-ffa302d09a03.png" width="300">
+
+
+
 ## [Day 66 - Cafe API](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/066_cafe_api)
 * Created my first API of Cafe Locations in London.
 * Users can access the entire database, request a random cafe, or alter the "price" field when the real-world price changes.

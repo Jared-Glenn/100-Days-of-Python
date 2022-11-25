@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 68 - Site Authenticator]
+## [Day 68 - Site Authenticator](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/068_site_authenticator)
 * Created a standard login page using increased security, including hashing and salting passwords.
 * Added secret pages only accessible if you have logged into your account. Changed visible aspects of pages depending on login status.
 * Added error messages and flashes to improve the user experience and provide advice. Added a working logout button.

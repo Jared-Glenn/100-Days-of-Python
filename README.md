@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 68 - Site Authenticator]
+* Created a standard login page using increased security, including hashing and salting passwords.
+* Added secret pages only accessible if you have logged into your account. Changed visible aspects of pages depending on login status.
+* Added error messages and flashes to improve the user experience and provide advice. Added a working logout button.
+
+<img src="https://user-images.githubusercontent.com/38020231/203914348-4a285881-7f86-4246-b624-30a5a206dc24.gif">
+
+
+
 ## [Day 67 - Blog with RESTful Routing](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/067_blog_restful_routing)
 * Improved the navigation and connectivity of the blog project.
 * Posts can now be easily created using a fully functional text editor and then saved into a database.

@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 69 - Blog Authentication]
+* Added login functionality for visitors to the blog so they can make comments on posts.
+* Creating posts, deleting posts, and editing posts are now locked behind admin privileges for specific users.
+* Users, BlogPosts, and Comments are all tracked via relationships through sqlalchemy.
+
+<img src="https://user-images.githubusercontent.com/38020231/204086650-f1c9f7c2-18d4-41ca-aac2-131be3f29cfe.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/204086652-98202e5f-efde-4978-bc90-3db082153d57.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/204086654-0e8391cd-5e9f-4f8b-b386-d71260f816a1.png" width="700">
+
+
+
 ## [Day 68 - Site Authenticator](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/068_site_authenticator)
 * Created a standard login page using increased security, including hashing and salting passwords.
 * Added secret pages only accessible if you have logged into your account. Changed visible aspects of pages depending on login status.

@@ -2,11 +2,11 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 70 - Blog Deployment]
+## [Day 70 - Blog Deployment](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/070_blog_deployment)
 * Worked on managing this project with local git.
 * Studied how to deploy this project through Heroku, but Heroku's business model is changing, making a different service necessary.
 * Spent the day learning to use render.com and deployed the website there.
-* At present, the Postgres is still not active due to significant and somewhat unique bugs. Fixed many bugs, but will need to continue to project later.
+* At present, the Postgres is still not active due to significant and somewhat unique bugs. Fixed many bugs, but will need to continue the project later.
 
 <img src="https://user-images.githubusercontent.com/38020231/204121429-c9187aa0-bfa3-4083-8b16-5c90812f29a5.png" width="700">
 

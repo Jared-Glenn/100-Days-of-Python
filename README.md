@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 71 - College Majors vs. Yearly Salary Analysis]()
+## [Day 71 - College Majors vs. Yearly Salary Analysis](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/071_majors_vs_salary)
 * Practiced working with Pandas and Google Collaboratory to analyze the effects of a persons college major on their eventual yearly salary.
 * Evaluated and found that Education and Spanish were the two lowest paid professions two years ago. Economics had a highly unstable payscale, with a wide spread of possible salaries.
 * Found newer data, used data scraping to pull the data off of [Payscale.com](https://www.payscale.com/college-salary-report/majors-that-pay-you-back/bachelors), created a csv, and analyzed the more recent data to find that Political Economy had the lowest pay of the number I sampled.

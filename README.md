@@ -2,6 +2,18 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 71 - College Majors vs. Yearly Salary Analysis]()
+* Practiced working with Pandas and Google Collaboratory to analyze the effects of a persons college major on their eventual yearly salary.
+* Evaluated and found that Education and Spanish were the two lowest paid professions two years ago. Economics had a highly unstable payscale, with a wide spread of possible salaries.
+* Found newer data, used data scraping to pull the data off of [Payscale.com](https://www.payscale.com/college-salary-report/majors-that-pay-you-back/bachelors), created a csv, and analyzed the more recent data to find that Political Economy had the lowest pay of the number I sampled.
+
+<img src="https://user-images.githubusercontent.com/38020231/204255516-f50baf89-7179-4045-a905-53c84369496e.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/204255527-62d60a97-8f70-468d-8d6b-7943743e40c2.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/204255536-4213f7fc-4905-4a0a-a468-6c85455a5c94.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/204255546-baf5ec98-6f54-4dd3-a081-17ce2e1e6e21.png" width="700">
+
+
+
 ## [Day 70 - Blog Deployment](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/070_blog_deployment)
 * Worked on managing this project with local git.
 * Studied how to deploy this project through Heroku, but Heroku's business model is changing, making a different service necessary.

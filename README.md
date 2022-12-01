@@ -2,6 +2,19 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 74 - Google Trends and Correlation with Market Behavior]()
+* Performed an analysis of data about the stock prices of Tesla and Bitcoin to determine if search trends preceded a rise in stock price.
+* Overall, the analysis indicates that the variables have the reverse relationship. In fact, it appears that a rise in stock price tends to increase google searches done on the company.
+* Also analyzed if searches for unemployment benefits historically precede a rise in unemployment.
+* This did turn out to be prescient. There is a slight lead in benefits searches immediately before a rise in unemployment. This may be due to employees being aware of layoffs in advance, or it could be due to unemployment rates being calculated after a delay, of necessity.
+
+<img src="https://user-images.githubusercontent.com/38020231/205031574-ab381699-f2d3-4ca9-bebc-eca5d28462aa.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205031589-f693a232-ef38-42d4-bc81-107122f5d3a7.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205031598-3324a9ea-9de7-4301-93f6-928438cf525a.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205031609-732558fa-aaa0-4ab5-b744-2e91b2815cb0.png" width="700">
+
+
+
 ## [Day 73 - Lego Popularity and Historical Set Growth and Themes]()
 * Analyzed the growth of Lego products from its humble beginnings to its more recent growth. While sets started small, simple, and few, they have since grown on all fronts.
 * Determined that, not only has the number of sets grown fairly steadily since 1949, but the complexity of the sets has also grown, as exemplified by the number of pieces per Lego set.

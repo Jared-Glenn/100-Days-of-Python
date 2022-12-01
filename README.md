@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-# [Day 74 - Google Trends and Correlation with Market Behavior]()
+## [Day 74 - Google Trends and Correlation with Market Behavior]()
 * Performed an analysis of data about the stock prices of Tesla and Bitcoin to determine if search trends preceded a rise in stock price.
 * Overall, the analysis indicates that the variables have the reverse relationship. In fact, it appears that a rise in stock price tends to increase google searches done on the company.
 * Also analyzed if searches for unemployment benefits historically precede a rise in unemployment.

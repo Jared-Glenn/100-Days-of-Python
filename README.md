@@ -2,6 +2,20 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 75 - Qualities of Successful Apps on the Android App Store]()
+* Analyzed the composition of the app store to determine the general qualities of success there.
+* Discovered that the vast majority of apps are free with a large potential of significant lost installations if the app is paid.
+* Among the more successful paid apps, Parenting, Weather, Medical, and Personalization had a much higher ratio of paid apps and tended to fetch higher prices.
+* The median price of an app is $2.99, but some app markets have a much higher tolerance for expensive apps, such as Dating and Games, which can range up to about $6.00.
+
+<img src="https://user-images.githubusercontent.com/38020231/205301879-e6ab7704-b6bd-46af-95dc-4c69bae87f79.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205301884-44fda9bf-e687-4c3e-9ac1-cc7617be5ba8.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205301892-7a11d0e3-27fe-4187-9c5c-f6c1fc3e44ca.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205301897-de4c983b-8297-4b10-9a8a-b8972e893b63.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205301907-081d0aff-d8dd-4724-90d6-7c818dd9c5e2.png" width="700">
+
+
+
 ## [Day 74 - Google Trends and Correlation with Market Behavior](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/074_google_trends_and_correlation_with_market_behavior)
 * Performed an analysis of data about the stock prices of Tesla and Bitcoin to determine if search trends preceded a rise in stock price.
 * Overall, the analysis indicates that the variables have the reverse relationship. In fact, it appears that a rise in stock price tends to increase google searches done on the company.

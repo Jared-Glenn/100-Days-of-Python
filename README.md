@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 75 - Qualities of Successful Apps on the Android App Store]()
+## [Day 75 - Qualities of Successful Apps on the Android App Store](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/075_qualities_of_successful_apps_on_the_android_app_store)
 * Analyzed the composition of the app store to determine the general qualities of success there.
 * Discovered that the vast majority of apps are free with a large potential of significant lost installations if the app is paid.
 * Among the more successful paid apps, Parenting, Weather, Medical, and Personalization had a much higher ratio of paid apps and tended to fetch higher prices.

@@ -2,6 +2,18 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 76 - Manipulating NumPy Arrays as Data and Images]()
+* Practiced methods of altering numpy arrays mathematically.
+* Sliced and separated ndarrays based on indices and analyzed those arrays.
+* Did linear-algebra-like operations with scalars and matrix multiplication.
+* Manipulated images in the form of ndarrays.
+
+<img src="https://user-images.githubusercontent.com/38020231/205435479-a802f042-af90-4ffd-8ad9-95dda4570b3d.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205435483-1fcab5e2-1cbd-4903-9a3c-eff4a1a8ed84.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205435486-2dfece7d-ee8c-4cb0-9c7f-2047889edc28.png" width="700">
+
+
+
 ## [Day 75 - Qualities of Successful Apps on the Android App Store](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2051-75/075_qualities_of_successful_apps_on_the_android_app_store)
 * Analyzed the composition of the app store to determine the general qualities of success there.
 * Discovered that the vast majority of apps are free with a large potential of significant lost installations if the app is paid.

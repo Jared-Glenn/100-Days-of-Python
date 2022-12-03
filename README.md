@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 76 - Manipulating NumPy Arrays as Data and Images]()
+## [Day 76 - Manipulating NumPy Arrays as Data and Images](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/076_manipulating_numpy_arrays)
 * Practiced methods of altering numpy arrays mathematically.
 * Sliced and separated ndarrays based on indices and analyzed those arrays.
 * Did linear-algebra-like operations with scalars and matrix multiplication.

@@ -2,6 +2,20 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 77 - Film Budgets and Revenue]()
+* Investigated the relationship between a film's budget and its eventual gross returns, compared domestically and internationally.
+* Discovered a large difference in film budgets and revenue, splitting films into two fairly distinct eras: Prior to 1970 and After 1970 (called new_films and old_films in the data).
+* After reviewing the data, there is a roughly 50% correlation between a film's budget and its revenue, a very respectable metric, considering the data only uses one explanatory variable. Investors can expect a 1:3 ratio of investment to return on modern films (at least, prior to the pandemic, when this data was scraped).
+* Old films are much less dependent on their budgets, with budgets explaining less than 3% of a film's revenue. In short, some other element was the main influencing factor in a film's success prior to 1970.
+
+
+<img src="https://user-images.githubusercontent.com/38020231/205484623-a35ce8a4-8515-47cd-b928-b4508d42223e.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205484625-b6abb5d9-6681-4938-860a-caab3c62e269.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205484629-3226476d-c40d-4437-a11b-9df91dcbdab2.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205484631-037e051b-144c-4954-b993-433585d3ce37.png" width="700">
+
+
+
 ## [Day 76 - Manipulating NumPy Arrays as Data and Images](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/076_manipulating_numpy_arrays)
 * Practiced methods of altering numpy arrays mathematically.
 * Sliced and separated ndarrays based on indices and analyzed those arrays.

@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 77 - Film Budgets and Revenue]()
+## [Day 77 - Film Budgets and Revenue](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/077_film_budget_vs_revenue)
 * Investigated the relationship between a film's budget and its eventual gross returns, compared domestically and internationally.
 * Discovered a large difference in film budgets and revenue, splitting films into two fairly distinct eras: Prior to 1970 and After 1970 (called new_films and old_films in the data).
 * After reviewing the data, there is a roughly 50% correlation between a film's budget and its revenue, a very respectable metric, considering the data only uses one explanatory variable. Investors can expect a 1:3 ratio of investment to return on modern films (at least, prior to the pandemic, when this data was scraped).

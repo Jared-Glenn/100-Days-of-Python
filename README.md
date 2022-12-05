@@ -2,6 +2,19 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 78 - Nobel Prize Analysis]()
+* Analyzed the winners of Nobel Prizes, their categories, ages, countries, and organizations.
+* Found a high number of winners in the United States, followed by the United Kingdom, largely due to the high number of high performing Universities in the US. This seems to have been the case since World War II, when Europe was devastated. Until then, the Nobel Prize was mostly for Europeans.
+* Men still make up a more than 90% majority of Nobel Prize winners, and the age of winners is increasing, as well (although the range of those ages are also increasing, with the first 17-year-old winner in history only occurring in 2014.
+
+<img src="https://user-images.githubusercontent.com/38020231/205621330-c2c30b5f-0bbb-4032-9a0d-1c0b6d12f168.gif" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205621337-22d4c1b6-37d7-41e4-b307-4cae6d95bbcb.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205621351-a7d2b8a2-2486-4a9b-9abe-604da1f69217.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205621358-00df2f51-eb64-4526-9eb2-6c1bdc0289c9.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205621371-6563f0b2-0c5a-4ed2-8851-db1cd79c55a0.png" width="700">
+
+
+
 ## [Day 77 - Film Budgets and Revenue](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/077_film_budget_vs_revenue)
 * Investigated the relationship between a film's budget and its eventual gross returns, compared domestically and internationally.
 * Discovered a large difference in film budgets and revenue, splitting films into two fairly distinct eras: Prior to 1970 and After 1970 (called new_films and old_films in the data).

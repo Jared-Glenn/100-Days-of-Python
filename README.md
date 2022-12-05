@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 78 - Nobel Prize Analysis]()
+## [Day 78 - Nobel Prize Analysis](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/078_nobel_prize_analysis)
 * Analyzed the winners of Nobel Prizes, their categories, ages, countries, and organizations.
 * Found a high number of winners in the United States, followed by the United Kingdom, largely due to the high number of high performing Universities in the US. This seems to have been the case since World War II, when Europe was devastated. Until then, the Nobel Prize was mostly for Europeans.
 * Men still make up a more than 90% majority of Nobel Prize winners, and the age of winners is increasing, as well (although the range of those ages are also increasing, with the first 17-year-old winner in history only occurring in 2014.

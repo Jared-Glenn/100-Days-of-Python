@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 79 - The Tragic Discovery of Handwashing]()
+## [Day 79 - The Tragic Discovery of Handwashing](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/079_the_tragic_discovery_of_handwashing)
 * Investigated the same data that Dr. Semmelweis did in the 1800s in Vienna, finding a negative correlation between handwashing and maternal mortality rates.
 * Represented the data extensively with matplotlib, seaborn, and plotly, showing a visually striking difference between the variables.
 * Ran a t-test to determine if the results were statistically significant and concluded (with a p-value of 0.0000002985) that this configuration of data is unlikely to occur by chance.

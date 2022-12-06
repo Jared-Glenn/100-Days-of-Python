@@ -2,6 +2,19 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 79 - The Tragic Discovery of Handwashing]()
+* Investigated the same data that Dr. Semmelweis did in the 1800s in Vienna, finding a negative correlation between handwashing and maternal mortality rates.
+* Represented the data extensively with matplotlib, seaborn, and plotly, showing a visually striking difference between the variables.
+* Ran a t-test to determine if the results were statistically significant and concluded (with a p-value of 0.0000002985) that this configuration of data is unlikely to occur by chance.
+
+<img src="https://user-images.githubusercontent.com/38020231/205848518-23ff98e3-f8cd-461d-92bd-841c308aabea.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205848526-d876b539-10db-4cdb-8e57-3e96dbdbaf0b.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205848536-e01938f7-fd23-46b5-b116-669a0a69c41d.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205848547-7ffdbceb-df6e-40f5-95ff-f516321a6442.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/205848536-e01938f7-fd23-46b5-b116-669a0a69c41d.png" width="700">
+
+
+
 ## [Day 78 - Nobel Prize Analysis](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/078_nobel_prize_analysis)
 * Analyzed the winners of Nobel Prizes, their categories, ages, countries, and organizations.
 * Found a high number of winners in the United States, followed by the United Kingdom, largely due to the high number of high performing Universities in the US. This seems to have been the case since World War II, when Europe was devastated. Until then, the Nobel Prize was mostly for Europeans.

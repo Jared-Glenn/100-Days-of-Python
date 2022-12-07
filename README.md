@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 80 - Housing Prices Analysis]()
+## [Day 80 - Housing Prices Analysis](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/080_housing_prices_analysis)
 * Analyzed the pricing of houses in the 1970s in Boston, Massachusetts with several factors that may influence housing prices, such as number of rooms, air and soil quality, proximity to business districts, and adjacency to a body of water.
 * One of the largest influencing factors was, unsurprisingly, the number of rooms the house had, but the air and soil quality and commute distance ended up being fairly important, as well.
 * By using a logarithmic scale for price, I was able to improve the r-squared score to 0.74, over the previous score of 0.67.

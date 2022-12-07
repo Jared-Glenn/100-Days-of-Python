@@ -2,6 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 80 - Housing Prices Analysis]()
+* Analyzed the pricing of houses in the 1970s in Boston, Massachusetts with several factors that may influence housing prices, such as number of rooms, air and soil quality, proximity to business districts, and adjacency to a body of water.
+* One of the largest influencing factors was, unsurprisingly, the number of rooms the house had, but the air and soil quality and commute distance ended up being fairly important, as well.
+* By using a logarithmic scale for price, I was able to improve the r-squared score to 0.74, over the previous score of 0.67.
+
+<img src="https://user-images.githubusercontent.com/38020231/206114473-e2f0bcb5-1d84-49c2-bf6c-3d9cedb03b94.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/206114481-cba895e9-7fdf-4575-ab9d-c9d6c194c430.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/206114494-7e1789fc-85b5-4c1b-9f1f-987207296ccf.png" width="700">
+
+
+
 ## [Day 79 - The Tragic Discovery of Handwashing](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/079_the_tragic_discovery_of_handwashing)
 * Investigated the same data that Dr. Semmelweis did in the 1800s in Vienna, finding a negative correlation between handwashing and maternal mortality rates.
 * Represented the data extensively with matplotlib, seaborn, and plotly, showing a visually striking difference between the variables.

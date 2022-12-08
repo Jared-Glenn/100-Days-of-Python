@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 81 - Less is Morse Project]()
+* Created a text to morse code converter completely solo. I was given the specs for the assignment and completed it on my own. (All remaining projects will work this way.)
+* Made use of Tkinter to create a nice interface for the user to enjoy, complete with an entry field and button.
+* "Less is Morse" correctly recognizes text that can and cannot be translated, allowing it to provide a response, even in the case of punctuation or non-English characters.
+
+<img src="https://user-images.githubusercontent.com/38020231/206355481-ae92eaad-c1f5-4810-98c7-8ebec84da530.gif" width="700">
+
+
+
 ## [Day 80 - Housing Prices Analysis](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/080_housing_prices_analysis)
 * Analyzed the pricing of houses in the 1970s in Boston, Massachusetts with several factors that may influence housing prices, such as number of rooms, air and soil quality, proximity to business districts, and adjacency to a body of water.
 * One of the largest influencing factors was, unsurprisingly, the number of rooms the house had, but the air and soil quality and commute distance ended up being fairly important, as well.

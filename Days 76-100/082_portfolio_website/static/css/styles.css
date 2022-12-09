@@ -1,0 +1,84 @@
+body {
+    background-color: #5d7a7a;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.page-wrapper {
+    color: white;
+    height: 200vh;
+    margin: 2% auto;
+    background-color: #351313;
+}
+
+.navbar-custom {
+    background-color: #351313;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.75rem;
+    margin: 1rem 3rem;
+    /* color: gold; */
+    }
+
+
+.nav-link .dropdown-toggle {
+    text-align: right;
+}
+
+
+.heading-div {
+    margin: 2rem;
+}
+
+.text-area {
+    margin: 2rem;
+}
+
+.showcase {
+    height: 20rem;
+    margin: 30px;
+    background-color: #133535;
+    border-radius: 5%;
+}
+
+.focus-picture {
+    display: block;
+    margin-left: auto;
+    position: relative;
+    bottom: 30rem;
+    left: 1rem;
+    z-index: 99;
+    height: 30rem;
+    border-radius: 5%;
+
+}
+
+.coding-languages {
+    margin: 2rem 1rem;
+}
+
+li {
+    margin-left: 2rem;
+}
+
+.language-item {
+    font-size: 1.2rem;
+}
+
+.email-div {
+    margin: 3rem 1rem;
+}
+
+.btn-call {
+    background-color: #133535;
+    color: white;
+}

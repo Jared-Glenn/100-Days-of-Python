@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 82 - Portfolio Website]()
+## [Day 82 - Portfolio Website](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/082_portfolio_website)
 * Created a website from scratch for a professional portfolio.
 * Made use of Bootstrap for many of the templates and altered them to better work with the site.
 * Concentrated on making the site responsive to different screen sizes.

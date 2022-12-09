@@ -2,6 +2,15 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 82 - Portfolio Website]()
+* Created a website from scratch for a professional portfolio.
+* Made use of Bootstrap for many of the templates and altered them to better work with the site.
+* Concentrated on making the site responsive to different screen sizes.
+
+<img src="https://user-images.githubusercontent.com/38020231/206653946-a385951e-58da-4a4a-9db8-c9c743f89b39.png" width="700">
+
+
+
 ## [Day 81 - Less is Morse Project](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/081_text_to_morse_code_converter)
 * Created a text to morse code converter completely solo. I was given the specs for the assignment and completed it on my own. (All remaining projects will work this way.)
 * Made use of Tkinter to create a nice interface for the user to enjoy, complete with an entry field and button.

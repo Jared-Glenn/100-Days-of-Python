@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 83 - Tic-Tac-Toe]
+* Created a text-based interface for a tic-tac-toe game, and the structure to run the game.
+* Created a victory module to determine if a player has won and declare that winner.
+* Created a computer opponent that will look for a road to victory against a human opponent.
+* Play with one or two players.
+
+<img src="https://user-images.githubusercontent.com/38020231/207182786-b7391bd8-1b30-47cf-bab9-aa81fd964a3b.gif" width="700">
+
+
+
 ## [Day 82 - Portfolio Website](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/082_portfolio_website)
 * Created a website from scratch for a professional portfolio.
 * Made use of Bootstrap for many of the templates and altered them to better work with the site.

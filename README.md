@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 83 - Tic-Tac-Toe]
+## [Day 83 - Tic-Tac-Toe](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/083_tic_tac_toe)
 * Created a text-based interface for a tic-tac-toe game, and the structure to run the game.
 * Created a victory module to determine if a player has won and declare that winner.
 * Created a computer opponent that will look for a road to victory against a human opponent.

@@ -2,7 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 84 - Image Watermarking App]()
+* *Solo Project*
+* Created an application that can take an image and add a text watermark.
+* UI allows for the user to select the color of the text, font size, position of the text, and the wording of the text.
+
+<img src="https://user-images.githubusercontent.com/38020231/207468391-1af1f841-eaf7-4550-b23b-a43a12b8b35e.gif" width="700">
+
+
+
 ## [Day 83 - Tic-Tac-Toe](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/083_tic_tac_toe)
+* *Solo Project*
 * Created a text-based interface for a tic-tac-toe game, and the structure to run the game.
 * Created a victory module to determine if a player has won and declare that winner.
 * Created a computer opponent that will look for a road to victory against a human opponent.
@@ -13,6 +23,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
 ## [Day 82 - Portfolio Website](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/082_portfolio_website)
+* *Solo Project*
 * Created a website from scratch for a professional portfolio.
 * Made use of Bootstrap for many of the templates and altered them to better work with the site.
 * Concentrated on making the site responsive to different screen sizes.
@@ -22,6 +33,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
 ## [Day 81 - Less is Morse Project](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/081_text_to_morse_code_converter)
+* *Solo Project*
 * Created a text to morse code converter completely solo. I was given the specs for the assignment and completed it on my own. (All remaining projects will work this way.)
 * Made use of Tkinter to create a nice interface for the user to enjoy, complete with an entry field and button.
 * "Less is Morse" correctly recognizes text that can and cannot be translated, allowing it to provide a response, even in the case of punctuation or non-English characters.

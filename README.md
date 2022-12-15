@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 85 - Typing Speed Test]()
+## [Day 85 - Typing Speed Test](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/085_typing_speed_test)
 * **Solo Project**
 * Created an app to test typing speed for the user. Roughly 200 characters are in each test (an amount that can be adjusted, as needed) and words are pulled from the the top 1000 most used English words.
 * A professional UI with clear markings for each button, with words and colors changing to demonstrate their uses or meanings.

@@ -2,11 +2,23 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 86 - Breakout Game]()
+* **Solo Project**
+* Created a game based on the 1976 Atari game "Breakout., complete with breakable bricks, paddle, and scoreboard,
+* Added an angular paddle to allow the user to choose which direction the ball should go, given enough skill. Also added a lives counter to allow the user to continue playing for up to three lives.
+* Overcame limits of the Turtle library by carefully honing collision based on the area covered by each brick and the paddle.
+* *Thanks to Ethan Glenn, who extensively tested the game. High Score: 675*
+
+<img src="https://user-images.githubusercontent.com/38020231/208030517-a7fa0bd9-f732-4e68-af7f-8c8dde276326.gif" width="700">
+
+
+
 ## [Day 85 - Typing Speed Test](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/085_typing_speed_test)
 * **Solo Project**
 * Created an app to test typing speed for the user. Roughly 200 characters are in each test (an amount that can be adjusted, as needed) and words are pulled from the the top 1000 most used English words.
 * A professional UI with clear markings for each button, with words and colors changing to demonstrate their uses or meanings.
 * Keeps track of if the user is correctly transcribing and gently corrects the user if a word has been written incorrectly.
+* *Thanks to Beka Glenn, who tirelessly tested the app. Best WPM: 63*
 
 <img src="https://user-images.githubusercontent.com/38020231/207785206-6b17e637-1d9e-4045-a900-eec66adb728d.gif" width="700">
 

@@ -39,7 +39,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Created a victory module to determine if a player has won and declare that winner.
 * Created a computer opponent that will look for a road to victory against a human opponent.
 * Play with one or two players.
-* *Thanks to Abbie Glenn, who joyously tested the game and won every game she played. Even against me.*
+* *Thanks to Abbie Glenn, who joyously tested (and won) every game she played. Even against me.*
 
 <img src="https://user-images.githubusercontent.com/38020231/207182786-b7391bd8-1b30-47cf-bab9-aa81fd964a3b.gif" width="700">
 

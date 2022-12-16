@@ -2,9 +2,9 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 86 - Breakout Game]()
+## [Day 86 - Breakout Game](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/086_breakout_game)
 * **Solo Project**
-* Created a game based on the 1976 Atari game "Breakout., complete with breakable bricks, paddle, and scoreboard,
+* Created a game based on the 1976 Atari game "Breakout", complete with breakable bricks, paddle, and scoreboard,
 * Added an angular paddle to allow the user to choose which direction the ball should go, given enough skill. Also added a lives counter to allow the user to continue playing for up to three lives.
 * Overcame limits of the Turtle library by carefully honing collision based on the area covered by each brick and the paddle.
 * *Thanks to Ethan Glenn, who extensively tested the game. High Score: 675*

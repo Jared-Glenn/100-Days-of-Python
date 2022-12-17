@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 87 - Workplace Cafe Tracking Website]()
+* **Solo Project**
+* Created a website with Flask that can use information about several cafes in a given area (London, in this case).
+* Generates the website dynamically so that it can use any cafe data in the same format and still work perfectly.
+* Attractive icons, color scheme, and design for ease of use and reference.
+
+<img src="https://user-images.githubusercontent.com/38020231/208229536-e1c26411-f7c6-477e-9c75-76b446eea6f4.gif" width="700">
+
+
+
 ## [Day 86 - Breakout Game](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/086_breakout_game)
 * **Solo Project**
 * Created a game based on the 1976 Atari game "Breakout", complete with breakable bricks, paddle, and scoreboard,

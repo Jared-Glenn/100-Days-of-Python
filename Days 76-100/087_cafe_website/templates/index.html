@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}Workplace Cafe{% endblock %}
+
+{% block content %}
+
+<div>
+    <h1 class="jumbotron text-center">Work Where You Chill</h1>
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Cafe</th>
+            <th>Coffee Price</th>
+            <th>Wifi</th>
+            <th>Talk on Phone</th>
+            <th>Outlet</th>
+            <th>Restrooms</th>
+            <th>Seats</th>
+        </tr>
+        {% for row in cafes %}
+        <tr>
+            <td><img src="{{row['img_url']}}" alt="Picture of {{row['name']}}"> </td>
+            <td> <span class="cafe-name"> {{ row["name"] }} </span> <br> <a href="{{row['map_url']}}"><i class="fa-solid fa-location-arrow"></i> {{ row["location"] }}</a> </td>
+            <td><i class="fa-solid fa-mug-hot"></i> {{ row["coffee_price"] }}</td>
+            {% if row['has_wifi'] == 1: %}
+                <td class="icon"><i class="fa-solid fa-wifi"></i></td>
+            {% elif row['has_wifi'] == 0: %}
+                <td class="icon"><i class="fa-solid fa-x"></i></td>
+            {% endif %}
+            {% if row['can_take_calls'] == 1: %}
+                <td class="icon"><i class="fa-solid fa-phone-volume"></i></td>
+            {% elif row['can_take_calls'] == 0: %}
+                <td class="icon"><i class="fa-solid fa-x"></i></td>
+            {% endif %}
+            {% if row['has_sockets'] == 1: %}
+                <td class="icon"><i class="fa-solid fa-plug-circle-bolt"></i></td>
+            {% elif row['has_sockets'] == 0: %}
+                <td class="icon"><i class="fa-solid fa-x"></i></td>
+            {% endif %}
+            {% if row['has_toilet'] == 1: %}
+                <td class="icon"><i class="fa-solid fa-restroom"></i></td>
+            {% elif row['has_toilet'] == 0: %}
+                <td class="icon"><i class="fa-solid fa-x"></i></td>
+            {% endif %}
+            <td class="icon"><i class="fa-solid fa-couch"></i> <br> {{ row["seats"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+        </div>
+    <div class="col-1"></div>
+    </div>
+
+
+</div>
+
+{% endblock %}

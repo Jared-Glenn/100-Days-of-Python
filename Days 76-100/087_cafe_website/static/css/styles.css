@@ -1,0 +1,47 @@
+
+body {
+    background-color: #F1EFDC;
+    color: #42032C;
+}
+
+.navbar-custom {
+    background-color: #E6D2AA;
+    color: #42032C;
+}
+
+h1 {
+    margin: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+img {
+    height: 8rem;
+    width: 12rem;
+}
+
+.table {
+    padding: .5rem;
+    background-color: #50163b;
+    color: white;
+    vertical-align: middle;
+    display: table-cell;
+    border-collapse: separate; 
+    border-spacing: .5rem;
+}
+
+a {
+    color: #D36B00;
+}
+
+.cafe-name {
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon {
+text-align: center;
+}
+
+th {
+    vertical-align: top;
+}

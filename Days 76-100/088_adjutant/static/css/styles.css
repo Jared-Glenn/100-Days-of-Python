@@ -1,0 +1,36 @@
+.content {
+    padding: 2rem;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+nav {
+    padding: 2rem;
+    font-family: 'Cinzel', serif;
+}
+
+nav.navbar-custom > a.navbar-brand {
+    color: white;
+}
+
+body {
+    background-color: #1f3459;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    padding: 0 16px;
+  }
+
+.day-list {
+    margin: 1rem;
+    height: 10rem;
+    background-color: rgb(165, 132, 71);
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+

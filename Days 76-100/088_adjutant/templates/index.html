@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Workplace Cafe{% endblock %}
+
+{% block content %}
+
+<div class="content">
+    <h1 class="jumbotron text-center">ADJUTANT</h1>
+    <div class="row">
+        <div class="day-list col-3 col-xl-2">
+            <h3>{{db_weekday}}</h3>
+            <h4>{{day_before}}</h4>
+        </div>
+        <div class="day-list col-3 col-xl-2">
+            <h3>{{f_weekday}}</h3>
+            <h4>{{focus}}</h4>
+        </div>
+        <div class="day-list col-3 col-xl-2">
+            <h3>{{da_weekday}}</h3>
+            <h4>{{day_after}}</h4>
+        </div>
+        <div class="day-list d-none d-xl-block  col-xl-2">
+            <h3>{{tda_weekday}}</h3>
+            <h4>{{two_days_after}}</h4>
+        </div>
+</div>
+
+
+</div>
+
+{% endblock %}

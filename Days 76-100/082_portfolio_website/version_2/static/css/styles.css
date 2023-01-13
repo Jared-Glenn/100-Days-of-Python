@@ -1,17 +1,58 @@
 
 
 body {
-    margin-top: -25px;
-    background-image: url("../img/site_background_2.jpg");
-    background-size: 100%;
+    background-image: linear-gradient(
+  180deg,
+  hsl(131deg 17% 50%) 0%,
+  hsl(130deg 16% 62%) 1%,
+  hsl(129deg 17% 74%) 9%,
+  hsl(128deg 17% 87%) 45%,
+  hsl(0deg 0% 100%) 100%
+);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "behind background behind";
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: inline;
+        margin-left: -10px;
+        margin-right: -10px;
+        width: 100%;
+    }
 }
 
 .content {
-    margin-top: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2rem;
     padding: 2rem;
+    margin-top: -25px;
+    grid-area: background;
+    background-image: url("../img/site_background_2.jpg");
+    background-size: 1500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content {
+        background-size: 150%;
+        background-position: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        background-image: url("../img/site_background.png");
+        background-size: 900px;
+        background-position: 50% 0%;
+    }
 }
 
 div.top-section {
@@ -43,8 +84,9 @@ h2.job-description {
 }
 
 h2.section {
-    font-size: 1.6rem;
-    color: white;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 600;
 }
 
 div.sub-intro {
@@ -60,4 +102,10 @@ button.custom {
 
 button.custom:hover {
     background-color: #946c6a;
+}
+
+div.card {
+    width: 25%;
+    height: 20rem;
+    margin: 2%;
 }

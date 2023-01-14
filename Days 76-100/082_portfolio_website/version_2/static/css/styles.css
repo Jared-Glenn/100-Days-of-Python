@@ -40,7 +40,7 @@ body {
     background-color: white;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1150px) {
     .content {
         background-size: 150%;
         background-position: 50%;
@@ -81,19 +81,86 @@ h2.job-description {
     color: #946c6a;
     font-weight: 900;
     font-size: 1.6rem;
+    transition: transform 2s;
+}
+
+div.top-section:hover h2.job-description {
+    transform: scale(1.1) translate(5%, -10%);
 }
 
 h2.section {
     font-size: 1.4rem;
     color: black;
     font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.12rem;
+    width: 15rem;
+}
+
+h2.section .letter {
+    transition: transform 0.6s;
+    display: inline-block;
+}
+
+h2.section:hover .letter:nth-child(1) {
+    transform: translate(-25%, 30%) rotate(8deg);
+}
+
+h2.section:hover .letter:nth-child(2) {
+    transform: translate(-20%, -10%) rotate(-8deg);
+}
+
+h2.section:hover .letter:nth-child(3) {
+    transform: translate(-5%, -40%) rotate(10deg);
+}
+
+h2.section:hover .letter:nth-child(4) {
+    transform: translate(0%, -25%) rotate(-8deg);
+}
+
+h2.section:hover .letter:nth-child(5) {
+    transform: translate(5%, -10%) rotate(-10deg);
+}
+
+h2.section:hover .letter:nth-child(6) {
+    transform: translate(-10%, 30%) rotate(15deg);
+}
+
+h2.section:hover .letter:nth-child(7) {
+    transform: translate(-5%, -40%) rotate(-10deg);
+}
+
+h2.section:hover .letter:nth-child(8) {
+    transform: translate(15%, -10%) rotate(20deg);
+}
+
+h2.section:hover .letter:nth-child(9) {
+    transform: translate(55%, -13%) rotate(-20deg);
+}
+
+h2.section:hover span{
+    transform: translate(10px, -10px)
 }
 
 div.sub-intro {
     color: black;
     background: rgba(106, 148, 113, 0.2);
-    width: 30rem;
-    padding: 0.5rem;
+    width: 28.5rem;
+    padding: 0.6rem;
+}
+
+h3.languages, h3.location {
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 800px) {
+    h3.languages, h3.location {
+        font-weight: 700;
+    }
+    div.sub-intro {
+        background: rgba(106, 148, 113, 0.5);
+    }
 }
 
 button.custom {
@@ -104,8 +171,99 @@ button.custom:hover {
     background-color: #946c6a;
 }
 
+button.custom:not(:disabled):not(:disabled):active {
+    background-color: #704341;
+}
+
 div.card {
-    width: 25%;
+    width: 25rem;
     height: 20rem;
     margin: 2%;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background: rgb(148,108,106);
+    background: linear-gradient(164deg, rgba(148,108,106,1) 0%, rgba(193,170,168,1) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+div.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    grid-template-areas: 
+    "project-1 project-2 project-3";
+}
+
+@media only screen and (max-width: 1100px) {
+    div.projects {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-areas: 
+    "project-1 project-2"
+    "project-3 nothing";
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div.projects {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-areas: 
+    "project-1"
+    "project-2"
+    "project-3";
+    }
+}
+
+h4 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    width: 18rem;
+}
+
+.github-logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    animation: rollOut 0.92s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+div.card:hover .github-logo{
+    animation: rollIn 0.92s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+@keyframes rollIn {
+    0% { opacity: 0; transform: translateX(100%) rotate(120deg); }
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+ } 
+
+@keyframes rollOut {
+    0% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+    100% { opacity: 0; transform: translateX(100%) rotate(120deg); }
+ } 
+
+p, ul {
+    font-size: 0.9rem;
+}
+
+.logos {
+    font-size: 3rem;
+    word-spacing: 20px;
+    position: absolute;
+    left: 2rem;
+    bottom: 1rem;
+}
+
+.img-logo {
+    position: relative;
+    top: -7px;
 }

@@ -187,35 +187,35 @@ div.card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-div.projects {
+div.boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     column-gap: 1rem;
     grid-template-areas: 
-    "project-1 project-2 project-3";
+    "box-1 box-2 box-3";
 }
 
 @media only screen and (max-width: 1100px) {
-    div.projects {
+    div.boxes {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: 1rem;
     grid-template-areas: 
-    "project-1 project-2"
-    "project-3 nothing";
+    "box-1 box-2"
+    "box-3 nothing";
     }
 }
 
 @media only screen and (max-width: 800px) {
-    div.projects {
+    div.boxes {
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 1rem;
     grid-template-areas: 
-    "project-1"
-    "project-2"
-    "project-3";
+    "box-1"
+    "box-2"
+    "box-3";
     }
 }
 
@@ -263,7 +263,47 @@ p, ul {
     bottom: 1rem;
 }
 
+.education-logos {
+    font-size: 3rem;
+    word-spacing: 20px;
+    position: absolute;
+    left: 2rem;
+    bottom: 0rem;
+}
+
+.education {
+    font-size: 0.8rem;
+}
+
 .img-logo {
     position: relative;
     top: -7px;
+}
+
+.no-style {
+    list-style: none;
+}
+
+ul.inside {
+    list-style: inside;
+}
+
+ul.sololearn {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+h5 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #4a7e53;
 }

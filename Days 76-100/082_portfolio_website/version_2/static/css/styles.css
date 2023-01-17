@@ -16,8 +16,7 @@ body {
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "behind background behind";
-    
+    "behind content behind";
 }
 
 @media only screen and (max-width: 1000px) {
@@ -25,14 +24,13 @@ body {
         display: inline;
         margin-left: -10px;
         margin-right: -10px;
-        width: 100%;
     }
 }
 
 .content {
     padding: 2rem;
+    width: 100%;
     margin-top: -25px;
-    grid-area: background;
     background-image: url("../img/site_background_2.jpg");
     background-size: 1500px;
     background-position: center;
@@ -42,6 +40,7 @@ body {
 
 @media only screen and (max-width: 1150px) {
     .content {
+        width: 100%;
         background-size: 150%;
         background-position: 50%;
     }
@@ -87,6 +86,8 @@ h2.job-description {
 div.top-section:hover h2.job-description {
     transform: scale(1.1) translate(5%, -10%);
 }
+
+/* SECTION HEADERS */
 
 h2.section {
     font-size: 1.4rem;
@@ -196,7 +197,7 @@ div.boxes {
     "box-1 box-2 box-3";
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1500px) {
     div.boxes {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -225,6 +226,8 @@ h4 {
     font-size: 2rem;
     width: 18rem;
 }
+
+/* PROJECTS SECTIONS */
 
 .github-logo {
     position: absolute;
@@ -262,6 +265,8 @@ p, ul {
     left: 2rem;
     bottom: 1rem;
 }
+
+/* EDUCATION SECTION */
 
 .education-logos {
     font-size: 3rem;
@@ -307,3 +312,263 @@ a {
 a:hover {
     color: #4a7e53;
 }
+
+/* CONTACT SECTION */
+
+div#contact-section {
+    width: 85%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact {
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: 4fr 5fr 6fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "photo info qualities";
+}
+
+@media only screen and (max-width: 1500px) {
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "photo info"
+        "qualities qualities";
+    }
+    .qualities {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+    div#contact-section {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "photo"
+        "info"
+        "qualities";
+    }
+    .qualities {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div#contact-section {
+        width: 500px;
+    }
+}
+
+div.photo {
+    display: flex;
+    grid-auto-flow: column;
+    gap: 4px;
+    justify-content: center;
+    align-content: center;
+}
+
+img.jared-pic {
+    margin: 1.2rem 1rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+    filter: drop-shadow(-5px 10px 10px #8b6c6c);
+}
+
+@media only screen and (max-width: 1500px) {
+    img.jared-pic {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+div.info {
+    display: flex;
+    justify-content: center;
+    margin: 1.8rem 1.2rem;
+}
+
+h6 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+p.email {
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+div.email-div {
+    margin: 0;
+    height: 2rem;
+    width: 15rem;
+}
+
+div.email-div:hover p.email{
+    animation: bounce 0.92s cubic-bezier(.36,.07,.19,.97) both;
+  }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(-15px);} 
+   60% {transform: translateY(-8px);} 
+    
+ } 
+
+
+
+
+
+
+
+
+p.phone {
+    margin: 0.1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+p.socials {
+    font-size: 1.8rem;
+}
+
+i.grow {
+    transition: transform 0.5s;
+}
+
+i.grow:hover {
+    transform: scale(1.2);
+}
+
+a.social-link {
+    transition: filter 1s;
+}
+
+a.social-link:link {
+    text-decoration: none;
+}
+
+a.social-link:visited {
+    text-decoration: none;
+}
+
+a.social-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a.social-link:active {
+    text-decoration: none;
+}
+
+a#phone:hover {
+    color: #4a7e53;
+}
+
+div.qualities {
+    margin-bottom: 2rem;
+    justify-self: center;
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "leadership motivation hard-working"
+    "programming data-science fast-learner"
+}
+
+div.donut {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 126, 29);
+    margin: 0.63rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2.5rem;
+    background-color: #69866e;
+    color: white;
+    font-weight: 600;
+    z-index: 2;
+    filter: drop-shadow(-3px 7px 7px #a8a8a831);
+}
+
+div.donut > p {
+    font-size: 1.05rem;
+    transition: transform 0.6s, text-shadow 0.6s ease
+}
+
+div.donut:hover > p {
+    transform: scale(1.1);
+    text-shadow: 5px 5px #2c4d31;
+}
+
+div:is(.leadership, .motivation, .hard-working, .programming, .data-science, .fast-learner) {
+    height: 8.25rem;
+    width: 8.25rem;
+    border-radius: 50%;
+    z-index: 1;
+    filter: drop-shadow(-5px 10px 10px #8b6c6c);
+}
+
+div.leadership {
+    background: conic-gradient(
+        #cfcbcb 8%,
+        #6c6986 8%
+    );
+}
+
+div.motivation {
+    background: conic-gradient(
+        #cfcbcb 3%,
+        #867969 3%
+    );
+}
+
+div.hard-working {
+    background: conic-gradient(
+        #cfcbcb 13%,
+        #866b69 13%
+    );
+}
+
+div.programming {
+    background: conic-gradient(
+        #cfcbcb 9%,
+        #698086 9%
+    );
+}
+
+div.data-science {
+    background: conic-gradient(
+        #cfcbcb 20%,
+        #758669 20%
+    );
+}
+
+div.fast-learner {
+    background: conic-gradient(
+        #cfcbcb 16%,
+        #69867c 16%
+    );
+}
+
+

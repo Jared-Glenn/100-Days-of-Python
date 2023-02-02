@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify
-from flask_bootstrap import Bootstrap5
+from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField, SelectField
@@ -10,7 +10,7 @@ import datetime
 app = Flask(__name__)
 app.app_context().push()
 app.config['SECRET_KEY'] = 'anything'
-bootstrap = Bootstrap5(app)
+bootstrap = Bootstrap(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)

@@ -1,27 +1,52 @@
 {% extends 'base.html' %}
 
-{% block title %}Workplace Cafe{% endblock %}
+{% block title %}Adjutant{% endblock %}
 
 {% block content %}
 
 <div class="content">
-    <h1 class="jumbotron text-center">ADJUTANT</h1>
+    <h1 class="text-center">ADJUTANT</h1>
     <div class="row">
-        <div class="day-list col-3 col-xl-2">
+        <div class="day-list day-1">
             <h3>{{db_weekday}}</h3>
             <h4>{{day_before}}</h4>
+            <div>
+                <form action="">
+                    <input type="text">
+                    <button>+</button>
+                </form>
+            </div>
         </div>
-        <div class="day-list col-3 col-xl-2">
+        <div class="day-list day-2">
             <h3>{{f_weekday}}</h3>
             <h4>{{focus}}</h4>
+            <div>
+                <form action="/add" method="POST">
+                    <input type="text" id="item" name="item">
+                    <button>+</button>
+                    <input type="hidden" id="date" name="date" value={{focus}}>
+                </form>
+            </div>
         </div>
-        <div class="day-list col-3 col-xl-2">
+        <div class="day-list day-3">
             <h3>{{da_weekday}}</h3>
             <h4>{{day_after}}</h4>
+            <div>
+                <form action="">
+                    <input type="text">
+                    <button>+</button>
+                </form>
+            </div>
         </div>
-        <div class="day-list d-none d-xl-block  col-xl-2">
+        <div class="day-list day-4">
             <h3>{{tda_weekday}}</h3>
             <h4>{{two_days_after}}</h4>
+            <div>
+                <form action="">
+                    <input type="text">
+                    <button>+</button>
+                </form>
+            </div>
         </div>
 </div>
 

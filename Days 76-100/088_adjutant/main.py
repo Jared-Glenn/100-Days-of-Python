@@ -1,24 +1,35 @@
-from flask import Flask, render_template, jsonify
-from flask_bootstrap import Bootstrap
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, render_template, jsonify, request, redirect, url_for
+from sqlalchemy import MetaData, Table, Column, Integer, String, Float, create_engine
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField, SelectField
 from wtforms.validators import DataRequired, URL, Regexp
 import csv
 import datetime
 
+
+# Create the App
 app = Flask(__name__)
-app.app_context().push()
 app.config['SECRET_KEY'] = 'anything'
-bootstrap = Bootstrap(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+# Configure the SQLite Database
+engine = create_engine("sqlite:///C:/Users/Jared/Documents/3. Programming/100 Days of Python/Days 76-100/088_adjutant/instances/todo.db", echo=True)
+
+meta = MetaData()
+MetaData.reflect(meta, bind=engine)
+
 
 global_focus = datetime.date.today()
 
 
-db.create_all()
+# TO DO MODEL
+to_do_items = Table(
+    'todo', meta,
+    Column('id', Integer, primary_key=True),
+    Column('item', String(250), nullable=False),
+    Column('date', String(250)),
+    extend_existing=True,
+)
+
+meta.create_all(engine)
 
 @app.route("/")
 def home():
@@ -40,6 +51,16 @@ def home():
                            tda_weekday=tda_weekday)
 
 
+@app.route("/add", methods=["GET", "POST"])
+def add():
+    if request.method=="POST":
+        new_item = to_do_items.insert().values(item=request.form["item"], date=request.form["date"])
+        
+        with engine.connect() as conn:
+            conn.execute(new_item)
+            print("Works!")
+        
+    return redirect(url_for('home'))
 
 
 if __name__ == '__main__':

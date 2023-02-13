@@ -14,23 +14,38 @@ nav.navbar-custom > a.navbar-brand {
 }
 
 body {
-    background-color: #1f3459;
+    background-color: #99a9cc;
     background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
     padding: 0 16px;
   }
 
+.row {
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "day-1 day-2 day-3 day-4";
+}
+
+
 .day-list {
     margin: 1rem;
-    height: 10rem;
-    background-color: rgb(165, 132, 71);
+    padding: 1rem;
+    padding-top: 0;
+    height: 20rem;
+    background-color: #cca199;
     font-family: 'Cinzel', serif;
 }
 
 h3 {
     font-size: 1.5rem;
+    margin: 0;
+    padding-top: 1rem;
 }
 
 h4 {
     font-size: 1rem;
+    margin-top: 0.20rem;
 }
 

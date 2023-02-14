@@ -54,10 +54,11 @@ def home():
 @app.route("/add", methods=["GET", "POST"])
 def add():
     if request.method=="POST":
-        new_item = to_do_items.insert().values(item=request.form["item"], date=request.form["date"])
+        # item=request.form["item"], date=request.form["date"]
+        new_item = to_do_items.insert().values(id=1, item="Something", date="A day")
         
         with engine.connect() as conn:
-            conn.execute(new_item)
+            conn.execute.insert(new_item)
             print("Works!")
         
     return redirect(url_for('home'))

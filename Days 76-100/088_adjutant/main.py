@@ -1,35 +1,36 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for
 from sqlalchemy import MetaData, Table, Column, Integer, String, Float, create_engine
+from sqlalchemy.orm import registry
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField, SelectField
 from wtforms.validators import DataRequired, URL, Regexp
 import csv
 import datetime
+from os.path import exists
 
 
 # Create the App
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'anything'
 # Configure the SQLite Database
-engine = create_engine("sqlite:///C:/Users/Jared/Documents/3. Programming/100 Days of Python/Days 76-100/088_adjutant/instances/todo.db", echo=True)
-
-meta = MetaData()
-MetaData.reflect(meta, bind=engine)
-
+engine = create_engine("sqlite+pysqlite:///C:/Users/Jared/Documents/3. Programming/100 Days of Python/Days 76-100/088_adjutant/instances/todo.db", echo=True, future=True)
+mapper_registry = registry()
+Base = mapper_registry.generate_base()
 
 global_focus = datetime.date.today()
 
 
-# TO DO MODEL
-to_do_items = Table(
-    'todo', meta,
-    Column('id', Integer, primary_key=True),
-    Column('item', String(250), nullable=False),
-    Column('date', String(250)),
-    extend_existing=True,
-)
+if not exists("C:/Users/Jared/Documents/3. Programming/100 Days of Python/Days 76-100/088_adjutant/instances/todo.db"):
+    class Item(Base):
+        __tablename__ = "todo_list"
 
-meta.create_all(engine)
+        id = Column(Integer, primary_key=True)
+        name = Column(String(30))
+        date = Column(String)
+
+        def __repr__(self):
+            return f"Item(id={self.id!r}, name={self.name!r}, date={self.date!r})"
+
 
 @app.route("/")
 def home():
@@ -46,6 +47,7 @@ def home():
     tda_weekday = two_days_after.strftime("%A")
     focus_str = focus.strftime("%B %d, %Y")
     f_weekday = focus.strftime("%A")
+    
     return render_template("index.html", focus=focus_str, f_weekday=f_weekday, day_before=day_before_str, db_weekday=db_weekday,
                            day_after=day_after_str, da_weekday=da_weekday, two_days_after=two_days_after_str,
                            tda_weekday=tda_weekday)
@@ -54,12 +56,10 @@ def home():
 @app.route("/add", methods=["GET", "POST"])
 def add():
     if request.method=="POST":
-        # item=request.form["item"], date=request.form["date"]
-        new_item = to_do_items.insert().values(id=1, item="Something", date="A day")
-        
-        with engine.connect() as conn:
-            conn.execute.insert(new_item)
-            print("Works!")
+        new_item = Item(name=request.form["item"], fullname=request.form["date"])
+
+    mapper_registry.metadata.create_all(engine)
+    Base.metadata.create_all(engine)
         
     return redirect(url_for('home'))
 

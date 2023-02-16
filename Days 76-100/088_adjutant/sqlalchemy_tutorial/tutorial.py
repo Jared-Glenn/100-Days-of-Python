@@ -88,12 +88,12 @@ metadata_obj = MetaData()
 #     Column("email_address", String, nullable=False),
 # )
 
-# metadata_obj.create_all(engine)
 
 
-mapper_registry = registry()
 
-Base = mapper_registry.generate_base()
+# mapper_registry = registry()
+
+# Base = mapper_registry.generate_base()
 
 user_table = Table(
     "user_account",
@@ -103,22 +103,23 @@ user_table = Table(
     Column("fullname", String),
 )
 
-
-class User(Base):
-    __table__ = user_table
-    __table_args__ = {'extend_existing': True}
-    
-    def __repr__(self):
-        return f"User(name={self.name!r}, fullname={self.fullname!r})"
-    
-    
-sandy = User(name="sandy", fullname="Sandy Cheeks")
-
 metadata_obj.create_all(engine)
+
+# class User(Base):
+#     __table__ = user_table
+#     __table_args__ = {'extend_existing': True}
+    
+#     def __repr__(self):
+#         return f"User(name={self.name!r}, fullname={self.fullname!r})"
+    
+    
+# sandy = User(name="sandy", fullname="Sandy Cheeks")
+
+# metadata_obj.create_all(engine)
 
 stmt = insert(user_table).values(name="spongebob", fullname="Spongebob Squarepants")
 
-compiled = stmt.compile()
+# compiled = stmt.compile()
 
 
 with engine.connect() as conn:
@@ -126,5 +127,5 @@ with engine.connect() as conn:
     conn.commit()
 
 
-print(result.inserted_primary_key)
+# print(result.inserted_primary_key)
 

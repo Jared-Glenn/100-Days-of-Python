@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="content">
-    <h1 class="text-center">ADJUTANT</h1>
+    <h1 class="text-center">Adjutant</h1>
     <div class="row">
         <div class="day-list day-1">
             <h3>{{db_weekday}}</h3>
@@ -20,7 +20,12 @@
             <div>
                 {%for list_item in db_dict:%}
                 <div class="list-div">
-                    <p class="list-text">{{list_item}}</p>
+                    {%if list_item[1] == False:%}
+                        <input class="checkbox" type="checkbox" id="coding" name="interest" value="coding" />
+                    {%elif list_item[1] == True:%}
+                        <input class="checkbox type="checkbox" id="coding" name="interest" value="coding" checked />
+                    {%endif%}
+                    <span class="list-text">{{list_item[0]}}</span>
                 </div>
                 {%endfor%}
             </div>

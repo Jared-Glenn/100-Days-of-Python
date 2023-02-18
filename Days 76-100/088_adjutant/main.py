@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for
-from sqlalchemy import MetaData, Table, Column, Integer, String, Float, create_engine, ForeignKey, select, insert
+from sqlalchemy import MetaData, Table, Column, Integer, String, Boolean, Float, create_engine, ForeignKey, select, insert, delete
 from sqlalchemy.orm import registry
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField, SelectField
@@ -25,10 +25,10 @@ todo_list = Table(
     Column("id", Integer, primary_key=True),
     Column("name", String(30)),
     Column("date", String(100)),
+    Column("checked", Boolean)
 )
 
 metadata_obj.create_all(engine)
-
 
 @app.route("/")
 def home():
@@ -51,28 +51,35 @@ def home():
     db_dict = []
     with engine.connect() as conn:
         for row in conn.execute(db_list_data):
-            db_dict.append(row[1])
+            db_dict.append((row[1], row[3]))
     
     # Focus Items
     focus_list_data = select(todo_list).where(todo_list.c.date == focus)
     focus_dict = []
     with engine.connect() as conn:
         for row in conn.execute(focus_list_data):
-            focus_dict.append(row[1])
+            focus_dict.append((row[1], row[3]))
     
     # Day After Items
     da_list_data = select(todo_list).where(todo_list.c.date == day_after)
     da_dict = []
     with engine.connect() as conn:
         for row in conn.execute(da_list_data):
-            da_dict.append(row[1])
+            da_dict.append((row[1], row[3]))
     
     # Two Days After Items
     tda_list_data = select(todo_list).where(todo_list.c.date == two_days_after)
     tda_dict = []
     with engine.connect() as conn:
         for row in conn.execute(tda_list_data):
-            tda_dict.append(row[1])
+            tda_dict.append((row[1], row[3]))
+            
+    # Delete Old Items
+    clean_up = delete(todo_list).where(todo_list.c.date != day_before).where(todo_list.c.date != focus).where(
+                                       todo_list.c.date != day_after).where(todo_list.c.date != two_days_after)
+    with engine.connect() as conn:
+            result = conn.execute(clean_up)
+            conn.commit()
         
     
     return render_template("index.html", focus=focus_str, f_weekday=f_weekday, day_before=day_before_str, db_weekday=db_weekday,
@@ -85,7 +92,7 @@ def home():
 @app.route("/add", methods=["GET", "POST"])
 def add():
     if request.method=="POST":
-        stmt = insert(todo_list).values(name=request.form["item"], date=request.form["date"])
+        stmt = insert(todo_list).values(name=request.form["item"], date=request.form["date"], checked=False)
 
         with engine.connect() as conn:
             result = conn.execute(stmt)

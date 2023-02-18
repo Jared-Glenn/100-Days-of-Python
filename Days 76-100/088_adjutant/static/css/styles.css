@@ -11,12 +11,23 @@ nav {
 
 nav.navbar-custom > a.navbar-brand {
     color: white;
+    font-family: 'Black Ops One', cursive;
 }
 
 body {
     background-color: #99a9cc;
     background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
     padding: 0 16px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
   }
 
 .row {
@@ -53,7 +64,7 @@ h4 {
     color: #2d3f66;
 }
 
-p.list-text {
+span.list-text {
     font-family: 'Cinzel', serif;
     font-size: 1.2rem;
     padding: 0.2rem;
@@ -64,4 +75,23 @@ p.list-text {
 div.list-div {
     background-color: #dac6c2;
     box-shadow: 2px 2px 2px #91716b;
+    margin-top: 1rem;
+    padding: 0.3rem;
+}
+
+div.list-div:hover {
+    background-color: #e7d4d0;
+    box-shadow: 2px 2px 2px #a5817a;
+    cursor: default;
+}
+
+input.checkbox {
+    width: 20px;
+    height: 20px;
+    padding: 0.2rem;
+    color: white;
+}
+
+input.checkbox:hover {
+    cursor: pointer;
 }

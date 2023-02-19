@@ -110,7 +110,7 @@ def check():
         with engine.connect() as conn:
             result = conn.execute(item_checking)
         
-        print("INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO")
+        print("INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO")
         print(result)
         
         # if 0 == False:

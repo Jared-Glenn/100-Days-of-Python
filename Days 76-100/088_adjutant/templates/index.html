@@ -20,11 +20,14 @@
             <div>
                 {%for list_item in db_dict:%}
                 <div class="list-div">
+                    <form id="check" action="/check" method="POST">
                     {%if list_item[1] == False:%}
-                        <input class="checkbox" type="checkbox" id="coding" name="interest" value="coding" />
+                        <input class="checkbox" type="checkbox" name="check" value="unchecked" onchange="document.getElementById('check').submit()" />
                     {%elif list_item[1] == True:%}
-                        <input class="checkbox type="checkbox" id="coding" name="interest" value="coding" checked />
+                        <input class="checkbox type="checkbox" id="coding" name="interest" value="checked" checked onchange="document.getElementById('check').submit()" />
                     {%endif%}
+                <input type="hidden" id="item" name="item" value="list_item[0]">    
+                </form>
                     <span class="list-text">{{list_item[0]}}</span>
                 </div>
                 {%endfor%}

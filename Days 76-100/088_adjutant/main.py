@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for
-from sqlalchemy import MetaData, Table, Column, Integer, String, Boolean, Float, create_engine, ForeignKey, select, insert, delete
+from sqlalchemy import MetaData, Table, Column, Integer, String, Boolean, Float, create_engine, ForeignKey, select, insert, delete, update
 from sqlalchemy.orm import registry
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField, SelectField
@@ -97,6 +97,30 @@ def add():
         with engine.connect() as conn:
             result = conn.execute(stmt)
             conn.commit()
+        
+        
+    # print("STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING")
+    
+    return redirect(url_for('home'))
+
+@app.route("/check", methods=["GET", "POST"])
+def check():
+    if request.method=="POST":
+        item_checking = select(todo_list).filter_by(name=request.form["item"])
+        with engine.connect() as conn:
+            result = conn.execute(item_checking)
+        
+        print("INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO")
+        print(result)
+        
+        # if 0 == False:
+        #     stmt = (update(todo_list).where(todo_list.c.name == request.form["item"]).values(checked="True"))
+        # elif 1 == True:
+        #     stmt = (update(todo_list).where(todo_list.c.name == request.form["item"]).values(checked="False"))
+        
+        # with engine.connect() as conn:
+        #     result = conn.execute(stmt)
+        #     conn.commit()
         
         
     # print("STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING")

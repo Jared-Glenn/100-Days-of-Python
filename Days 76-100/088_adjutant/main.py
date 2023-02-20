@@ -123,7 +123,6 @@ def check():
         #     conn.commit()
         
         
-    # print("STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING")
     
     return redirect(url_for('home'))
 

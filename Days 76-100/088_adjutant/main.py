@@ -98,8 +98,7 @@ def add():
             result = conn.execute(stmt)
             conn.commit()
         
-        
-    # print("STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING STARTING")
+      
     
     return redirect(url_for('home'))
 

@@ -44,7 +44,8 @@ body {
     margin: 1rem;
     padding: 1rem;
     padding-top: 0;
-    height: 20rem;
+    min-height: 50rem;
+    height: auto;
     background-color: #cca199;
     font-family: 'Cinzel', serif;
     border: 0.2rem solid white;
@@ -64,19 +65,28 @@ h4 {
     color: #2d3f66;
 }
 
-span.list-text {
-    font-family: 'Cinzel', serif;
-    font-size: 1.2rem;
-    padding: 0.2rem;
-    margin: 0.5rem;
-    color: #2d3f66;
-}
 
 div.list-div {
     background-color: #dac6c2;
     box-shadow: 2px 2px 2px #91716b;
-    margin-top: 1rem;
-    padding: 0.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-areas: 
+        "checkbox list-text delete-btn";
+
+}
+
+span.list-text {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.2rem;
+    margin-left: 0.3rem;
+    color: #2d3f66;
+    display: inline;
 }
 
 div.list-div:hover {
@@ -85,13 +95,88 @@ div.list-div:hover {
     cursor: default;
 }
 
+form {
+    display: inline;
+}
+
 input.checkbox {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     padding: 0.2rem;
     color: white;
+    display: inline;
+    vertical-align: middle;
+    align-self: center;
 }
 
 input.checkbox:hover {
     cursor: pointer;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+form button#delete-btn {
+    color: white;
+    background-color: #c2513b;
+    border-color: #c56f5e;
+    display: block;
+    visibility: hidden;
+    width: 35px;
+    height: 35px;
+    font-size: 0.7rem;
+    align-self: center;
+}
+
+
+div.list-div:hover > form button#delete-btn {
+    visibility: visible;
+}
+
+
+button#delete-btn:hover {
+    background-color: #e07b67;
+    border-color: #f08e3f;
+}
+
+div.add-button {
+    background-color: #5e78b1;
+    box-shadow: 2px 2px 2px #91716b;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    padding: 0;
+    width: 100%;
+    
+}
+
+input#item {
+    background-color: #dac6c2;
+    color: #2d3f66;
+    box-shadow: 2px 2px 2px #91716b;
+    height: 27px;
+    width: 75%;
+    margin: 0;
+    font: 1.5rem;
+}
+
+button.plus-button {
+    margin: 0;
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: #5e78b1;
+    color: white;
+    font-weight: 700;
+}
+
+button.plus-button:hover {
+    background-color: #84abff;
+    border-color: #c87efa;
+    cursor: pointer;
+}
+
+button.plus-button:hover > div.add-button {
+    background-color: #84abff;
 }

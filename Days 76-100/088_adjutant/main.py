@@ -51,28 +51,28 @@ def home():
     db_dict = []
     with engine.connect() as conn:
         for row in conn.execute(db_list_data):
-            db_dict.append((row[1], row[3]))
+            db_dict.append(row)
     
     # Focus Items
     focus_list_data = select(todo_list).where(todo_list.c.date == focus)
     focus_dict = []
     with engine.connect() as conn:
         for row in conn.execute(focus_list_data):
-            focus_dict.append((row[1], row[3]))
+            focus_dict.append(row)
     
     # Day After Items
     da_list_data = select(todo_list).where(todo_list.c.date == day_after)
     da_dict = []
     with engine.connect() as conn:
         for row in conn.execute(da_list_data):
-            da_dict.append((row[1], row[3]))
+            da_dict.append(row)
     
     # Two Days After Items
     tda_list_data = select(todo_list).where(todo_list.c.date == two_days_after)
     tda_dict = []
     with engine.connect() as conn:
         for row in conn.execute(tda_list_data):
-            tda_dict.append((row[1], row[3]))
+            tda_dict.append(row)
             
     # Delete Old Items
     clean_up = delete(todo_list).where(todo_list.c.date != day_before).where(todo_list.c.date != focus).where(
@@ -97,31 +97,48 @@ def add():
         with engine.connect() as conn:
             result = conn.execute(stmt)
             conn.commit()
-        
-      
     
     return redirect(url_for('home'))
+
+
+@app.route("/delete_item", methods=["GET", "POST"])
+def delete_item():
+    if request.method=="POST":
+        print("INFO INFO INFO INFO INFO INFO INFO INFO INFO")
+        print(request.form['item_id'])
+        removed_item = delete(todo_list).where(todo_list.c.id == request.form['item_id'])
+        with engine.connect() as conn:
+                result = conn.execute(removed_item)
+                conn.commit()
+
+        return redirect(url_for('home'))
+
+
 
 @app.route("/check", methods=["GET", "POST"])
 def check():
     if request.method=="POST":
-        item_checking = select(todo_list).filter_by(name=request.form["item"])
+        item_checking = select(todo_list).where(todo_list.c.id == request.form["item_id"])
+        list = []
         with engine.connect() as conn:
-            result = conn.execute(item_checking)
+            for row in conn.execute(item_checking):
+                list.append(row)
+        stmt = None
         
-        print("INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO INFO")
-        print(result)
+        if list[0][3] == False:
+             print("Working! False")
+             stmt = (update(todo_list).where(todo_list.c.id == request.form["item_id"]).values(checked=True))
+        elif list[0][3] == True:
+            print("Working! False")
+            stmt = (update(todo_list).where(todo_list.c.id == request.form["item_id"]).values(checked=False))
+        else:
+            print("ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ")
         
-        # if 0 == False:
-        #     stmt = (update(todo_list).where(todo_list.c.name == request.form["item"]).values(checked="True"))
-        # elif 1 == True:
-        #     stmt = (update(todo_list).where(todo_list.c.name == request.form["item"]).values(checked="False"))
-        
-        # with engine.connect() as conn:
-        #     result = conn.execute(stmt)
-        #     conn.commit()
-        
-        
+        with engine.connect() as conn:
+            result = conn.execute(stmt)
+            conn.commit()
+    
+
     
     return redirect(url_for('home'))
 

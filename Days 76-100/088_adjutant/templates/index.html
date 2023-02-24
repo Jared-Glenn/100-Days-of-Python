@@ -10,26 +10,33 @@
         <div class="day-list day-1">
             <h3>{{db_weekday}}</h3>
             <h4>{{day_before}}</h4>
-            <div>
-                <form action="/add" method="POST">
+            <div class="add-button">
+                <form class="new-item" action="/add" method="POST">
                     <input type="text" id="item" name="item">
-                    <button>+</button>
+                    <button class="plus-button">+</button>
                     <input type="hidden" id="date" name="date" value={{db_num}}>
                 </form>
             </div>
             <div>
                 {%for list_item in db_dict:%}
-                <div class="list-div">
-                    <form id="check" action="/check" method="POST">
-                    {%if list_item[1] == False:%}
-                        <input class="checkbox" type="checkbox" name="check" value="unchecked" onchange="document.getElementById('check').submit()" />
-                    {%elif list_item[1] == True:%}
-                        <input class="checkbox type="checkbox" id="coding" name="interest" value="checked" checked onchange="document.getElementById('check').submit()" />
-                    {%endif%}
-                <input type="hidden" id="item" name="item" value="list_item[0]">    
-                </form>
-                    <span class="list-text">{{list_item[0]}}</span>
-                </div>
+                    <div class="list-div">
+                        <form id="Box{{list_item[0]}}" action="/check" method="POST">
+                        {%if list_item[3] == False:%}
+                                <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="unchecked" onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                                <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">     
+                            </form>
+                            <span class="list-text">{{list_item[1]}}</span>
+                        {%elif list_item[3] == True:%}
+                                <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="checked" checked onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                                <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">    
+                            </form>
+                            <span class="list-text strikethrough">{{list_item[1]}}</span>
+                        {%endif%}
+                        <form action="/delete_item" method="POST">
+                        <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">
+                        <button id="delete-btn"><i class="fa-solid fa-trash"></i></button>
+                    </form>
+                    </div>
                 {%endfor%}
             </div>
         </div>
@@ -37,54 +44,99 @@
             <h3>{{f_weekday}}</h3>
             <h4>{{focus}}</h4>
             <div>
-                <form action="/add" method="POST">
+                <form class="new-item" action="/add" method="POST">
                     <input type="text" id="item" name="item">
-                    <button>+</button>
+                    <button class="plus-button">+</button>
                     <input type="hidden" id="date" name="date" value={{f_num}}>
                 </form>
             </div>
             <div>
                 {%for list_item in focus_dict:%}
                 <div class="list-div">
-                    <p class="list-text">{{list_item}}</p>
+                    <form id="Box{{list_item[0]}}" action="/check" method="POST">
+                    {%if list_item[3] == False:%}
+                            <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="unchecked" onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                            <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">     
+                        </form>
+                        <span class="list-text">{{list_item[1]}}</span>
+                    {%elif list_item[3] == True:%}
+                            <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="checked" checked onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                            <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">    
+                        </form>
+                        <span class="list-text strikethrough">{{list_item[1]}}</span>
+                    {%endif%}
+                    <form action="/delete_item" method="POST">
+                        <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">
+                        <button id="delete-btn"><i class="fa-solid fa-trash"></i></button>
+                    </form>
                 </div>
-                {%endfor%}
+            {%endfor%}
             </div>
         </div>
         <div class="day-list day-3">
             <h3>{{da_weekday}}</h3>
             <h4>{{day_after}}</h4>
             <div>
-                <form action="/add" method="POST">
+                <form class="new-item" action="/add" method="POST">
                     <input type="text" id="item" name="item">
-                    <button>+</button>
+                    <button class="plus-button">+</button>
                     <input type="hidden" id="date" name="date" value={{da_num}}>
                 </form>
             </div>
             <div>
                 {%for list_item in da_dict:%}
                 <div class="list-div">
-                    <p class="list-text">{{list_item}}</p>
+                    <form id="Box{{list_item[0]}}" action="/check" method="POST">
+                    {%if list_item[3] == False:%}
+                            <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="unchecked" onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                            <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">     
+                        </form>
+                        <span class="list-text">{{list_item[1]}}</span>
+                    {%elif list_item[3] == True:%}
+                            <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="checked" checked onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                            <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">    
+                        </form>
+                        <span class="list-text strikethrough">{{list_item[1]}}</span>
+                    {%endif%}
+                    <form action="/delete_item" method="POST">
+                        <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">
+                        <button id="delete-btn"><i class="fa-solid fa-trash"></i></button>
+                    </form>
                 </div>
-                {%endfor%}
+            {%endfor%}
             </div>
         </div>
         <div class="day-list day-4">
             <h3>{{tda_weekday}}</h3>
             <h4>{{two_days_after}}</h4>
             <div>
-                <form action="/add" method="POST">
+                <form class="new-item" action="/add" method="POST">
                     <input type="text" id="item" name="item">
-                    <button>+</button>
+                    <button class="plus-button">+</button>
                     <input type="hidden" id="date" name="date" value={{tda_num}}>
                 </form>
             </div>
             <div>
                 {%for list_item in tda_dict:%}
                 <div class="list-div">
-                    <p class="list-text">{{list_item}}</p>
+                    <form id="Box{{list_item[0]}}" action="/check" method="POST">
+                    {%if list_item[3] == False:%}
+                            <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="unchecked" onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                            <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">     
+                        </form>
+                        <span class="list-text">{{list_item[1]}}</span>
+                    {%elif list_item[3] == True:%}
+                            <input class="checkbox" type="checkbox" name="Box{{list_item[0]}}" value="checked" checked onchange="document.getElementById('Box{{list_item[0]}}').submit()" />
+                            <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">    
+                        </form>
+                        <span class="list-text strikethrough">{{list_item[1]}}</span>
+                    {%endif%}
+                    <form action="/delete_item" method="POST">
+                        <input type="hidden" id="item_id" name="item_id" value="{{list_item[0]}}">
+                        <button id="delete-btn"><i class="fa-solid fa-trash"></i></button>
+                    </form>
                 </div>
-                {%endfor%}
+            {%endfor%}
             </div>
         </div>
 </div>

@@ -2,7 +2,17 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 87 - Workplace Cafe Tracking Website]()
+## [Day 88 - Adjutant ToDo List](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/088_adjutant)
+* **Solo Project**
+* Created a website app with Flask (Adjutant) that is an interactive ToDo List.
+* Add and Delete functions included, specified per item and per day.
+* Separate checkmark function to allow a user to check something off without removing it from the list.
+
+<img src="https://user-images.githubusercontent.com/38020231/221082550-f034b93f-82b6-4c31-828f-fb9d201d99ae.gif" width="700">
+
+
+
+## [Day 87 - Workplace Cafe Tracking Website](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/087_cafe_website)
 * **Solo Project**
 * Created a website with Flask that can use information about several cafes in a given area (London, in this case).
 * Generates the website dynamically so that it can use any cafe data in the same format and still work perfectly.

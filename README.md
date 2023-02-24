@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 88 - Adjutant]()
+## [Day 88 - Adjutant ToDo List](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/088_adjutant)
 * **Solo Project**
 * Created a website app with Flask (Adjutant) that is an interactive ToDo List.
 * Add and Delete functions included, specified per item and per day.

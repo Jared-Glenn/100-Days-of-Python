@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 89 - Disappearing Text Writer]()
+* **Solo Project**
+* Writing program meant to pressure writers to keep writing. This will help writers combat writer's block by encouraging them to just keep writing and edit later.
+* Program automatically saves the work the writer completed when it disappears and the name of the file may be selected by the user.
+* Text will slowly fade (accompanied by warnings from the instructions area) over 10 seconds. A user can simply begin typing again to reset this timer.
+
+<img src="https://user-images.githubusercontent.com/38020231/221684503-28a4b09e-c6f2-455e-9fc1-5baf5739f4f0.gif" width="700">
+
+
+
 ## [Day 88 - Adjutant ToDo List](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/088_adjutant)
 * **Solo Project**
 * Created a website app with Flask (Adjutant) that is an interactive ToDo List.

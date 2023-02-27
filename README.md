@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-## [Day 89 - Disappearing Text Writer]()
+## [Day 89 - Disappearing Text Writer](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/089_disappearing_text_writer)
 * **Solo Project**
 * Writing program meant to pressure writers to keep writing. This will help writers combat writer's block by encouraging them to just keep writing and edit later.
 * Program automatically saves the work the writer completed when it disappears and the name of the file may be selected by the user.

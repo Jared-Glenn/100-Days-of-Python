@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 90 - PDF to Text Reader](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/090_pdf_to_text_reader)
+* **Solo Project**
+* Created an interface to select a PDF and Convert it.
+* Conversion makes use of api.voicerss.org to create a text to speech mp3.
+* Supports all PDFs.
+
+<img src="https://user-images.githubusercontent.com/38020231/222837427-78f93204-c55b-459a-8483-f86bb65e087b.png" width="300">
+
+
+
 ## [Day 89 - Disappearing Text Writer](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/089_disappearing_text_writer)
 * **Solo Project**
 * Writing program meant to pressure writers to keep writing. This will help writers combat writer's block by encouraging them to just keep writing and edit later.

@@ -8,7 +8,7 @@ Code completed in 2022 Bootcamp with Dr. Angela Yu.
 * Conversion makes use of api.voicerss.org to create a text to speech mp3.
 * Supports all PDFs.
 
-<img src="https://user-images.githubusercontent.com/38020231/222837427-78f93204-c55b-459a-8483-f86bb65e087b.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/222837427-78f93204-c55b-459a-8483-f86bb65e087b.png" width="300">
 
 
 

@@ -1,5 +1,7 @@
-from tika import parser
+import PyPDF2
 
+reader = PyPDF2.PdfReader('C:/Users/Jared/Downloads/Taming Survey.pdf')
 
-raw = parser.from_file("C:/Users/Jared/Downloads/Taming Survey.pdf")
-print(raw['content'])
+print(len(reader.pages))
+
+print(reader.pages[0].extract_text())

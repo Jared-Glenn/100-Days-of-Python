@@ -3,9 +3,12 @@ import os
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
-UPLOAD_FOLDER = "C:/Users/Jared/Documents/3. Programming/100 Days of Python/Days 76-100/091_image_color_palette_generator/files"
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+
 app.config['SECRET_KEY'] = 'anything'
+
+UPLOAD_FOLDER = "C:\\Users\\Jared\Documents\\3. Programming\\100 Days of Python\\Days 76-100\\091_image_color_palette_generator\\static\\Image"
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route('/')
 def home():

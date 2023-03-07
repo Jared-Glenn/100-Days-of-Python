@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>PALETTE</h1>
-    <h2>{{file}}</h2>
-    <img src="{{url_for('static', filename='\\Image\\'+file)}}" alt="picture">
+    <h2>{{dominant_color}}</h2>
+    <img src={{url_for('static', filename=file)}} alt="picture">
 </body>
 </html>

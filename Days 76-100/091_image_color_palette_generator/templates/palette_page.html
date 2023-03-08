@@ -8,7 +8,11 @@
 </head>
 <body>
     <h1>PALETTE</h1>
-    <h2>{{dominant_color}}</h2>
+    <h2>{{palette}}</h2>
     <img src={{url_for('static', filename=file)}} alt="picture">
+    <div>
+        {%for color in palette:%}
+        <div class="splotch" style="background-color: rgb{{color}};"></div>
+    </div>
 </body>
 </html>

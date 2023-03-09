@@ -1,0 +1,14 @@
+
+.full-palette {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+
+
+.splotch {
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.5rem;
+    background-color: None;
+}

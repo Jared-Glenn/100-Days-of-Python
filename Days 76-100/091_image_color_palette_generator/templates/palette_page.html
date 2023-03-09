@@ -10,9 +10,11 @@
     <h1>PALETTE</h1>
     <h2>{{palette}}</h2>
     <img src={{url_for('static', filename=file)}} alt="picture">
-    <div>
+    <div class="full-palette">
         {%for color in palette:%}
-        <div class="splotch" style="background-color: rgb{{color}};"></div>
+            {%color = 'background-color: rgb'+color%}
+        <div class="splotch" style="background-color:rgb{{ color }}">{{color}}</div>
+        {%endfor%}
     </div>
 </body>
 </html>

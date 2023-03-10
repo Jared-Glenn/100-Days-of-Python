@@ -7,8 +7,8 @@
 
 
 .splotch {
+    display: block;
     height: 3rem;
     width: 3rem;
     font-size: 0.5rem;
-    background-color: None;
 }

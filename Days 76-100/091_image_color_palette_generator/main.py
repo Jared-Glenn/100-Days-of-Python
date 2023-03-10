@@ -29,7 +29,11 @@ def palette():
         dominant_color = color_thief.get_color(quality=1)
         
         #NEEDS TO BE IMPLEMENTED
-        palette = color_thief.get_palette(color_count=10)
+        first_palette = color_thief.get_palette(color_count=10)
+        palette = []
+        for color in first_palette:
+            color = "rgb" + str(color)
+            palette.append(color)
         
         return render_template('palette_page.html', file=updated_img_path, palette=palette)
     

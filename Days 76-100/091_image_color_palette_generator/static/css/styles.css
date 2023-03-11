@@ -1,14 +1,12 @@
 
 .full-palette {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2%;
+    color: white;
+    background-color: white;
 }
 
 
-.splotch {
-    display: block;
-    height: 3rem;
-    width: 3rem;
-    font-size: 0.5rem;
+div.splotch {
+    display: inline-block;
+    height: 8rem;
+    width: 8rem;
 }

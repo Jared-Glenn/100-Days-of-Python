@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 <body>
     <h1>PALETTE</h1>
@@ -12,7 +13,7 @@
     <img src={{url_for('static', filename=file)}} alt="picture">
     <div class="full-palette">
         {%for color in palette:%}
-        <div class="splotch" style= {{color}} >{{color}}</div>
+        <div class="splotch" style="background-color: {{color}}"></div>
         {%endfor%}
     </div>
 </body>

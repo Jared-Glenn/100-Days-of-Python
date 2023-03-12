@@ -32,17 +32,26 @@ def palette():
         first_palette = color_thief.get_palette(color_count=11)
         palette = []
         for color in first_palette:
+            red_value = 255 - color[0]
+            green_value = 255 - color[1]
+            blue_value = 255 - color[2]
+            
+            if ((red_value * 0.922) + (green_value * 0.587) + (blue_value * 0.114)) > 186:
+                text_color = "rgb(255, 255, 255)"
+            else:
+                text_color = "rgb(0, 0 , 0)"
+
             color = "rgb" + str(color)
-            palette.append(color)
+            palette.append((color, text_color))
             
         # FIND INVERTED COLOR
-        red_value = 255 - first_palette[0][0]
-        green_value = 255 - first_palette[0][1]
-        blue_value = 255 - first_palette[0][2]
+        # red_value = 255 - first_palette[0][0]
+        # green_value = 255 - first_palette[0][1]
+        # blue_value = 255 - first_palette[0][2]
         
-        complementary_color = "rgb(" + str(red_value) + ", " + str(green_value) + ", " + str(blue_value) + ")"
+        # complementary_color = "rgb(" + str(red_value) + ", " + str(green_value) + ", " + str(blue_value) + ")"
         
-        return render_template('palette_page.html', file=updated_img_path, palette=palette, complementary_color = complementary_color)
+        return render_template('palette_page.html', file=updated_img_path, palette=palette)
     
     else:
         return render_template(url_for(home))

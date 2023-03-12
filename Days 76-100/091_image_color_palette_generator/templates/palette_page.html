@@ -7,10 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../static/css/styles.css">
 </head>
-<body>
-    <h1>PALETTE</h1>
-    <h2>{{palette}}</h2>
-    <img src={{url_for('static', filename=file)}} alt="picture">
+<body style="background-color: {{palette[0]}}">
+    <h1 class="site-name" style="color: {{complementary_color}}">Pictu-ette Perfect</h1>
+    <img class="picture" src={{url_for('static', filename=file)}} alt="picture">
     <div class="full-palette">
         {%for color in palette:%}
         <div class="splotch" style="background-color: {{color}}"></div>

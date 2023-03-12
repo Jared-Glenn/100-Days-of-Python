@@ -4,7 +4,8 @@ body {
 
 .site-name {
     text-align: center;
-    color: white;
+    font-size: 3rem;
+    font-family: 'Tilt Prism', cursive;
 }
 
 img.picture {
@@ -26,9 +27,22 @@ img.picture {
 }
 
 
-div.splotch {
+button.splotch {
     display: inline-block;
     height: 15vw;
     width: 15vw;
     margin: 0.5vw;
 }
+
+p.rgb-code {
+    font-size: 1.15rem;
+    text-align: center;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+button.splotch:hover > p.rgb-code {
+    opacity: 1;
+}
+

@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 91 - Image Color Palette Generator](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/091_image_color_palette_generator)
+* *Solo Project*
+* Created a website that can take an uploaded image, find its 10 most common colors and display them as a palette.
+* Background and text colors are determined dynamically based on the brightness or darkness of the background color.
+* Clicking on a color in the palette will save the rgb code to the user's clipboard for ease of use.
+
+<img src="https://user-images.githubusercontent.com/38020231/224609248-6eb082af-bffb-46fe-a339-58ad346c5a41.gif" width="700">
+
+
+
 ## [Day 90 - PDF to Text Reader](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/090_pdf_to_text_reader)
 * **Solo Project**
 * Created an interface to select a PDF and Convert it.

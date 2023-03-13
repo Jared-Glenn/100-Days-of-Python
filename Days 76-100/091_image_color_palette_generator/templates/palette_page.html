@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pictu-ette Perfect</title>
     <link rel="stylesheet" href="../static/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,14 @@
     <img class="picture" src={{url_for('static', filename=file)}} alt="picture">
     <div class="full-palette">
         {%for color in palette:%}
-        <button class="splotch" style="background-color: {{color[0]}}">
-            <p class="rgb-code" style="color: {{color[1]}}">{{color[0]}}</p>
-        </button>
+        <form action="/copy" method="POST">
+            <input type="hidden" id="color_id" name="color_id" value="{{color[0]}}">
+            <input type="hidden" id="file" name="file" value="{{file}}">
+            <input type="hidden" id="palette" name="palette" value="{{palette}}">
+            <button class="splotch" style="background-color: {{color[0]}}">
+                <p class="rgb-code" style="color: {{color[1]}}">{{color[0]}}</p>
+            </button>
+        </form>
         {%endfor%}
     </div>
 </body>

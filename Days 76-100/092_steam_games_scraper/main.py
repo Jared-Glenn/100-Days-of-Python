@@ -23,7 +23,7 @@ if '404' in response.url:
 soup = BeautifulSoup(response.content, "html.parser")
 spoonful = soup.find_all('div', attrs={"id": "product-list-a11y-skiplink-target"})
 
-# table = spoonful.find_all('ul', attrs={"class": "bc-list"})
+table = spoonful.find_all('ul', attrs={"class": "bc-list"})
 
 for i in spoonful:
     print(i.text)

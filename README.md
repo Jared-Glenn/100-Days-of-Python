@@ -2,8 +2,20 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+## [Day 92 - Audible Book Scraper](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/092_audible_book_scraper)
+* **Solo Project**
+* Created a web scraper that can access Audible to locate new audio books.
+* The search terms can be altered by simply changing the link to match your desired search.
+* The scraper will provide a CSV of the titles, prices, number of stars rated, and the number of reviewers on the book.
+
+<img src="https://user-images.githubusercontent.com/38020231/228079887-d9316643-4d1e-4f66-8a07-bfb90b59b2bc.png" width="700">
+<img src="https://user-images.githubusercontent.com/38020231/228079898-2f78154d-5f6d-4838-a897-cb7d051e050d.png" width="700">
+
+
+
+
 ## [Day 91 - Image Color Palette Generator](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/091_image_color_palette_generator)
-* *Solo Project*
+* **Solo Project**
 * Created a website that can take an uploaded image, find its 10 most common colors and display them as a palette.
 * Background and text colors are determined dynamically based on the brightness or darkness of the background color.
 * Clicking on a color in the palette will save the rgb code to the user's clipboard for ease of use.

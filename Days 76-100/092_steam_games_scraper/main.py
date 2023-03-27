@@ -21,13 +21,30 @@ if '404' in response.url:
 
 # This will not print on its own without '.encode(utf-8)' but bs4 needs to parse it without the encode.
 soup = BeautifulSoup(response.content, "html.parser")
-spoonful = soup.find_all('div', attrs={"id": "product-list-a11y-skiplink-target"})
 
-table = spoonful.find_all('ul', attrs={"class": "bc-list"})
 
-for i in spoonful:
-    print(i.text)
-    print('\n')
+print(soup.div.text)
+
+
+# title = soup.find("span", attrs={"class": "bc-text navigation-do-underline-on-hover"})
+
+# print(title)
+
+# title_value = title.string
+
+# title_string = title_value.strip()
+
+# print(title_string)
+
+
+
+# spoonful = soup.find_all('div', attrs={"id": "product-list-a11y-skiplink-target"})
+
+# table = spoonful.find_all('ul', attrs={"class": "bc-list"})
+
+# for i in spoonful:
+#     print(i.text)
+#     print('\n')
 
 # grid = soup.select_one["div{class=bc-col-responsive}"]
 # listings = grid.find_all("tr")

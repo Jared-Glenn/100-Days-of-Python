@@ -2,6 +2,16 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
+[Day 93 - Dino-Jump Automated Player](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/093_dinojump_automated_player)
+* **Solo Project**
+* Created a program to open and control the Dino-Jump Google game.
+* Program determines the correct time to jump and does so.
+
+<img src="https://user-images.githubusercontent.com/38020231/228390555-06229bd6-ac32-40ae-89b7-6350da7242bd.gif" width="700">
+
+
+
+
 ## [Day 92 - Audible Book Scraper](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/092_audible_book_scraper)
 * **Solo Project**
 * Created a web scraper that can access Audible to locate new audio books.

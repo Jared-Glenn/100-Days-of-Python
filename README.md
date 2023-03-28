@@ -2,7 +2,7 @@
 Code completed in 2022 Bootcamp with Dr. Angela Yu.
 
 
-[Day 93 - Dino-Jump Automated Player](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/093_dinojump_automated_player)
+## [Day 93 - Dino-Jump Automated Player](https://github.com/Jared-Glenn/100-Days-of-Python/tree/main/Days%2076-100/093_dinojump_automated_player)
 * **Solo Project**
 * Created a program to open and control the Dino-Jump Google game.
 * Program determines the correct time to jump and does so.

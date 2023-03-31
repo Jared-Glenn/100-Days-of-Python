@@ -41,8 +41,11 @@ alien_group =  pygame.sprite.Group()
 for i in range(10):
     for j in range(5):
         x = (i*50) + 100
-        y = (j*80) + 100
+        y = (j*50) + 100
         alien_group.add(Alien(x, y))
+
+alien_direction = "right"
+alien_down = 0
 
 while True:
     for event in pygame.event.get():
@@ -61,8 +64,27 @@ while True:
         player.draw(screen)
         player.update()
         
+        player.sprite.lasers.draw(screen)
+        player.sprite.lasers.update()
+        
+        # Check if aliens should be moving down.
+        if alien_down >= 5:
+            alien_down = 0
+        elif alien_down >= 1:
+            alien_down += 1
+        # If not and aliens are moving out of bounds, reverse direction and start moving down.
+        else:
+            all_aliens = alien_group.sprites()
+            for alien in all_aliens:
+                if alien_direction == "right" and alien.rect.right >= 780 and alien_down == 0:
+                    alien_direction = "left"
+                    alien_down = 1
+                elif alien_direction == "left" and alien.rect.left <= 20 and alien_down == 0:
+                    alien_direction = "right"
+                    alien_down = 1
+        
         alien_group.draw(screen)
-        alien_group.update()
+        alien_group.update(alien_direction, alien_down)
     
     else:
         screen.fill((0,0,0))

@@ -2,6 +2,7 @@ import pygame
 from sys import exit
 import os
 from player import Player
+from aliens import Alien
 
 os.chdir("100 Days of Python/Days 76-100/094_space_invaders/")
 pygame.init()
@@ -36,6 +37,13 @@ instructions_rect = instructions.get_rect(center = (400, 500))
 player = pygame.sprite.GroupSingle()
 player.add(Player())
 
+alien_group =  pygame.sprite.Group()
+for i in range(10):
+    for j in range(5):
+        x = (i*50) + 100
+        y = (j*80) + 100
+        alien_group.add(Alien(x, y))
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -53,7 +61,8 @@ while True:
         player.draw(screen)
         player.update()
         
-        
+        alien_group.draw(screen)
+        alien_group.update()
     
     else:
         screen.fill((0,0,0))

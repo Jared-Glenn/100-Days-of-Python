@@ -3,6 +3,7 @@ from sys import exit
 import os
 from player import Player
 from aliens import Alien
+    
 
 os.chdir("100 Days of Python/Days 76-100/094_space_invaders/")
 pygame.init()
@@ -46,6 +47,16 @@ for i in range(10):
 
 alien_direction = "right"
 alien_down = 0
+alien_down_distance = 10
+
+
+def collision_checks():
+    # Player Lasers
+    if player.sprite.lasers:
+        for laser in player.sprite.lasers:
+            if pygame.sprite.spritecollide(laser, alien_group, True):
+                laser.kill()
+
 
 while True:
     for event in pygame.event.get():
@@ -61,14 +72,14 @@ while True:
         screen.fill((0,0,0))
         screen.blit(space_background, (0, 0))
         
-        player.draw(screen)
-        player.update()
-        
         player.sprite.lasers.draw(screen)
         player.sprite.lasers.update()
         
+        player.draw(screen)
+        player.update()
+        
         # Check if aliens should be moving down.
-        if alien_down >= 5:
+        if alien_down >= alien_down_distance:
             alien_down = 0
         elif alien_down >= 1:
             alien_down += 1
@@ -86,6 +97,8 @@ while True:
         alien_group.draw(screen)
         alien_group.update(alien_direction, alien_down)
     
+        collision_checks()
+        
     else:
         screen.fill((0,0,0))
         screen.blit(space_background, (0, 0))

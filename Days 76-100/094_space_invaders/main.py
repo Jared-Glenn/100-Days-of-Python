@@ -54,8 +54,9 @@ def collision_checks():
     # Player Lasers
     if player.sprite.lasers:
         for laser in player.sprite.lasers:
-            if pygame.sprite.spritecollide(laser, alien_group, True):
+            if pygame.sprite.spritecollide(laser, alien_group, False):
                 laser.kill()
+                
 
 
 while True:

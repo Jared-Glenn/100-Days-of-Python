@@ -23,22 +23,6 @@ class Alien(pygame.sprite.Sprite):
         self.rect = self.image.get_rect(center = (self.x_pos, self.y_pos))
     
         
-    def explode(self):
-        explosion_file_path = 'Graphics/Explosions/Alien Explosion/tile0'
-        for x in range(64):
-            if x > 9:
-                explosion = explosion_file_path + str(x) + ".png"
-                self.image = pygame.image.load(explosion).convert_alpha()
-                self.image = pygame.transform.rotozoom(self.image, 0, 0.17)
-                self.rect = self.image.get_rect(center = (self.x_pos, self.y_pos))
-            else:
-                explosion = explosion_file_path + '0' + str(x) + ".png"
-                self.image = pygame.image.load(explosion).convert_alpha()
-                self.image = pygame.transform.rotozoom(self.image, 0, 0.17)
-                self.rect = self.image.get_rect(center = (self.x_pos, self.y_pos))
-        
-        self.kill()
-        
     def update(self, direction, down):
         self.direction = direction
         self.down = down

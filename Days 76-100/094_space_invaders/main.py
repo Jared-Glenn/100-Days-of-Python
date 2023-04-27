@@ -50,6 +50,8 @@ alien_direction = "right"
 alien_down = 0
 alien_down_distance = 10
 
+laser_odds = 50
+
 explosion_group = pygame.sprite.Group()
 
 
@@ -103,7 +105,7 @@ while True:
                     alien_down = 1
         
         alien_group.draw(screen)
-        alien_group.update(alien_direction, alien_down)
+        laser_odds = alien_group.update(alien_direction, alien_down, laser_odds)
     
         collision_checks()
         
